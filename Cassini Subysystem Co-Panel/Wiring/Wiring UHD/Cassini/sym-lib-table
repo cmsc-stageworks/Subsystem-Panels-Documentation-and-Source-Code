@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Cassini Lib")(type Legacy)(uri "${KIPRJMOD}/Cassini Lib.lib")(options "")(descr ""))
+)

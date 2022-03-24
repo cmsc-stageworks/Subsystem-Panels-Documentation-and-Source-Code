@@ -1,0 +1,9 @@
+If you are using a metal panel, then it is probably
+some power going through the panel, just check and
+make sure there is no exposed cables touching the 
+panel, if there is none, check that all the jack 
+detect plugs on the subsystem poriton are pulled 
+away, if none of these fix it, you will have to 
+insulate the jacks using some electrical tape or 
+glue, just make it so the metal of the jack isn't 
+touching the panel.

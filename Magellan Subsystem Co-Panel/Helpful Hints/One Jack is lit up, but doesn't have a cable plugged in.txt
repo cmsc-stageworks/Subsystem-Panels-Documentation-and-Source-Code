@@ -1,0 +1,5 @@
+This is most likely caused because the portion of the jack
+that touches the cable has been bent away from the jack 
+detect due to use, just simply push it back in place so that
+when there is no cable in it it touches jack detect, and when
+there is one, that they don't touch.

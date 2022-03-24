@@ -1,0 +1,5 @@
+Now this can be caused by a number of things, but the most
+common in my experience has been that the plugs have come
+out of the back of the jack, if they are continuously doing
+this just simply take a pair of pliers and compress it so 
+that it firmly grips the pin of the button.

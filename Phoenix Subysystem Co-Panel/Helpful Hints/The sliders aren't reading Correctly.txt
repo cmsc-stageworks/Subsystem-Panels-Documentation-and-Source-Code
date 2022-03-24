@@ -1,0 +1,5 @@
+Check 3 things
+1. all wires are securly attached
+2. signal is hooked to the com port of slider
+3. the resistances of the gauge with a multimeter
+	it may be a broken gauge.

@@ -1,0 +1,28 @@
+If you would like, you can add a reset button, it is super simple.
+All you have to do is connect ground to one pin on the button and 
+the other to the reset pin on the arduino. If your reset button
+has a light, just hook the positive side through a resistor to 5v
+and the negative end to GND.
+
+For the power switch, just put it between the VIN on the arduino 
+and the 5-6V power supply positive. This will stop the 5v and 3v3
+regulators on the arduino from suppling power to the rest of the
+panel. If you aren't using the arduino's 5v power regulator to 
+power everything, then put the powerswitch between the power supply 
+and the positive rail of your panel.
+
+Another upgrade you may consider is puting one diode(properly oriented)
+on each button in the grid, this will make it so you can press more than
+one button at a time without it ghosting, and could make it slightly more
+reliable.
+
+None of these upgrades will change the main function of the 
+panel, they are just nice features, the first two are both 
+installed on all of the first wave of panels, so they can be 
+easily turned off at night and can be reset if the user 
+accidentally starts the wrong puzzle. The reason the diodes
+aren't on the panels is that we finished all of them by the
+time I thought of it, so if we print new pcb's I will 
+Implement it, but it will most likely not be put in for a 
+while.
+

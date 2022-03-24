@@ -1,0 +1,9 @@
+check to see if the background color is turning 
+to the correct color, if it is than that means
+more likely then not that you have a bad gauge
+and will have to replace it, but you can check
+to see if the connection to the gauge is correct
+and take a multimeter to the incoming voltage
+to check and see if it is correct, it should
+be liniar 0-5v, 5v being max on the gauge 0 being
+the min.

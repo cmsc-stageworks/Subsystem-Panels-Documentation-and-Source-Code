@@ -1,0 +1,8 @@
+Since we replaced the background scale, this can 
+pop out kind of, and the needle can get stuck on
+it, to fix this you will have to pull it down and 
+take it appart so the front plastic is gone, then 
+I found taking a screwdriver and applying pressure 
+to the scale fixes it most times, I know it 
+sounds bad, but it works supprisingly well and if 
+you are careful it shouldn't break it.

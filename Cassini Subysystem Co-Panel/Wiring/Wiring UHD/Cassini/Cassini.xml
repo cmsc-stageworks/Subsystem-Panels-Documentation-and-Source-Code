@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Administrator\OneDrive\Documents\Space center\ki cad\Cassini\Cassini\Cassini.sch</source>
+    <date>7/19/2021 2:55:50 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Cassini.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MES4">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F60638</tstamp>
+    </comp>
+    <comp ref="MES5">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F609B1</tstamp>
+    </comp>
+    <comp ref="MES6">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F60DC4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ArduinoMega</value>
+      <libsource lib="MCU_Microchip_ATmega" part="ArduinoMega" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F62C7E</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F64EF9</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F65AF4</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F65F29</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F66214</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6653B</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6C897</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6C89D</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6C8A3</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6C8A9</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6C8AF</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6D8DF</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6D8E5</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6D8EB</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6D8F1</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F6D8F7</tstamp>
+    </comp>
+    <comp ref="MES1">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7588B</tstamp>
+    </comp>
+    <comp ref="MES2">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F75891</tstamp>
+    </comp>
+    <comp ref="MES3">
+      <value>Voltmeter_DC</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Voltmeter_DC" description="DC voltmeter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F75897</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7589D</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758A3</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758A9</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758AF</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758B5</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758BB</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758C1</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758C7</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758CD</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758D3</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758D9</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758DF</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758E5</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758EB</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F758F1</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7E837</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7F18A</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7FFAB</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F7FFB1</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F805A1</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F805A7</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F809D7</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F809DD</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F8108D</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F81093</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F8163F</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_SPST</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F81645</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F850AE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F86C57</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F871F4</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F877B3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F87D68</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F88AD1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Voltmeter_DC">
+      <description>DC voltmeter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">MES</field>
+        <field name="Value">Voltmeter_DC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ArduinoMega">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ArduinoMega</field>
+      </fields>
+      <pins>
+        <pin num="~" name="5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>D:\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>D:\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(SW18-Pad1)">
+      <node ref="SW18" pin="1"/>
+    </net>
+    <net code="2" name="Net-(SW23-Pad1)">
+      <node ref="SW23" pin="1"/>
+    </net>
+    <net code="3" name="Net-(SW23-Pad2)">
+      <node ref="SW23" pin="2"/>
+    </net>
+    <net code="4" name="Net-(SW24-Pad1)">
+      <node ref="SW24" pin="1"/>
+    </net>
+    <net code="5" name="Net-(SW24-Pad2)">
+      <node ref="SW24" pin="2"/>
+    </net>
+    <net code="6" name="Net-(SW25-Pad1)">
+      <node ref="SW25" pin="1"/>
+    </net>
+    <net code="7" name="Net-(SW25-Pad2)">
+      <node ref="SW25" pin="2"/>
+    </net>
+    <net code="8" name="Net-(SW26-Pad1)">
+      <node ref="SW26" pin="1"/>
+    </net>
+    <net code="9" name="Net-(SW26-Pad2)">
+      <node ref="SW26" pin="2"/>
+    </net>
+    <net code="10" name="Net-(SW27-Pad1)">
+      <node ref="SW27" pin="1"/>
+    </net>
+    <net code="11" name="Net-(SW27-Pad2)">
+      <node ref="SW27" pin="2"/>
+    </net>
+    <net code="12" name="Net-(SW16-Pad1)">
+      <node ref="SW16" pin="1"/>
+    </net>
+    <net code="13" name="Net-(SW16-Pad2)">
+      <node ref="SW16" pin="2"/>
+    </net>
+    <net code="14" name="Net-(SW17-Pad1)">
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="15" name="Net-(SW17-Pad2)">
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="16" name="Net-(SW22-Pad2)">
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="17" name="Net-(SW18-Pad2)">
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="18" name="Net-(SW19-Pad1)">
+      <node ref="SW19" pin="1"/>
+    </net>
+    <net code="19" name="Net-(SW19-Pad2)">
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="20" name="Net-(SW20-Pad1)">
+      <node ref="SW20" pin="1"/>
+    </net>
+    <net code="21" name="Net-(SW20-Pad2)">
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="22" name="Net-(SW21-Pad1)">
+      <node ref="SW21" pin="1"/>
+    </net>
+    <net code="23" name="Net-(SW21-Pad2)">
+      <node ref="SW21" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
+    </net>
+    <net code="26" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="27" name="Net-(SW11-Pad2)">
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="28" name="Net-(SW4-Pad2)">
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="29" name="Net-(SW7-Pad1)">
+      <node ref="SW7" pin="1"/>
+    </net>
+    <net code="30" name="Net-(SW7-Pad2)">
+      <node ref="SW7" pin="2"/>
+    </net>
+    <net code="31" name="Net-(SW10-Pad1)">
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="32" name="Net-(SW10-Pad2)">
+      <node ref="SW10" pin="2"/>
+    </net>
+    <net code="33" name="Net-(SW13-Pad1)">
+      <node ref="SW13" pin="1"/>
+    </net>
+    <net code="34" name="Net-(SW13-Pad2)">
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="35" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(SW2-Pad2)">
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="37" name="Net-(SW5-Pad1)">
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="38" name="Net-(SW5-Pad2)">
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="39" name="Net-(SW8-Pad1)">
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="40" name="Net-(SW8-Pad2)">
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="41" name="Net-(SW11-Pad1)">
+      <node ref="SW11" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="43" name="Net-(SW14-Pad1)">
+      <node ref="SW14" pin="1"/>
+    </net>
+    <net code="44" name="Net-(SW14-Pad2)">
+      <node ref="SW14" pin="2"/>
+    </net>
+    <net code="45" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="46" name="Net-(SW3-Pad2)">
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(SW6-Pad1)">
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="48" name="Net-(SW6-Pad2)">
+      <node ref="SW6" pin="2"/>
+    </net>
+    <net code="49" name="Net-(SW9-Pad1)">
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="50" name="Net-(SW9-Pad2)">
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="51" name="Net-(SW12-Pad1)">
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="52" name="Net-(SW12-Pad2)">
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="53" name="Net-(SW15-Pad1)">
+      <node ref="SW15" pin="1"/>
+    </net>
+    <net code="54" name="Net-(SW15-Pad2)">
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="55" name="Net-(SW22-Pad1)">
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="56" name="GND">
+      <node ref="MES3" pin="1"/>
+      <node ref="D5" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="MES6" pin="1"/>
+      <node ref="U1" pin="~"/>
+      <node ref="MES4" pin="1"/>
+      <node ref="MES5" pin="1"/>
+      <node ref="MES1" pin="1"/>
+      <node ref="MES2" pin="1"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="57" name="+6V">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="58" name="+5V">
+      <node ref="U1" pin="~"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="61" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D6-Pad4)">
+      <node ref="D6" pin="4"/>
+    </net>
+    <net code="63" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D4-Pad4)">
+      <node ref="D4" pin="4"/>
+    </net>
+    <net code="65" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="66" name="Net-(SW4-Pad1)">
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D5-Pad4)">
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="78" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="79" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="80" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="81" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="82" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="83" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="85" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="87" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="88" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="89" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="90" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="91" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="92" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="93" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="94" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="95" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="96" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="97" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="98" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="99" name="Net-(MES4-Pad2)">
+      <node ref="MES4" pin="2"/>
+    </net>
+    <net code="100" name="Net-(MES5-Pad2)">
+      <node ref="MES5" pin="2"/>
+    </net>
+    <net code="101" name="Net-(MES6-Pad2)">
+      <node ref="MES6" pin="2"/>
+    </net>
+    <net code="102" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="103" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="104" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="105" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="106" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="107" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="108" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="109" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="110" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="111" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="112" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="113" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="114" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="116" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="117" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="118" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="119" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="120" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="121" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="122" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="123" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="124" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="125" name="Net-(SW33-Pad2)">
+      <node ref="SW33" pin="2"/>
+    </net>
+    <net code="126" name="Net-(SW40-Pad2)">
+      <node ref="SW40" pin="2"/>
+    </net>
+    <net code="127" name="Net-(SW29-Pad1)">
+      <node ref="SW29" pin="1"/>
+    </net>
+    <net code="128" name="Net-(SW29-Pad2)">
+      <node ref="SW29" pin="2"/>
+    </net>
+    <net code="129" name="Net-(SW32-Pad1)">
+      <node ref="SW32" pin="1"/>
+    </net>
+    <net code="130" name="Net-(SW32-Pad2)">
+      <node ref="SW32" pin="2"/>
+    </net>
+    <net code="131" name="Net-(SW35-Pad1)">
+      <node ref="SW35" pin="1"/>
+    </net>
+    <net code="132" name="Net-(SW35-Pad2)">
+      <node ref="SW35" pin="2"/>
+    </net>
+    <net code="133" name="Net-(SW38-Pad1)">
+      <node ref="SW38" pin="1"/>
+    </net>
+    <net code="134" name="Net-(SW38-Pad2)">
+      <node ref="SW38" pin="2"/>
+    </net>
+    <net code="135" name="Net-(SW41-Pad1)">
+      <node ref="SW41" pin="1"/>
+    </net>
+    <net code="136" name="Net-(SW41-Pad2)">
+      <node ref="SW41" pin="2"/>
+    </net>
+    <net code="137" name="Net-(SW30-Pad1)">
+      <node ref="SW30" pin="1"/>
+    </net>
+    <net code="138" name="Net-(SW30-Pad2)">
+      <node ref="SW30" pin="2"/>
+    </net>
+    <net code="139" name="Net-(SW33-Pad1)">
+      <node ref="SW33" pin="1"/>
+    </net>
+    <net code="140" name="Net-(SW40-Pad1)">
+      <node ref="SW40" pin="1"/>
+    </net>
+    <net code="141" name="Net-(SW36-Pad1)">
+      <node ref="SW36" pin="1"/>
+    </net>
+    <net code="142" name="Net-(SW36-Pad2)">
+      <node ref="SW36" pin="2"/>
+    </net>
+    <net code="143" name="Net-(SW39-Pad1)">
+      <node ref="SW39" pin="1"/>
+    </net>
+    <net code="144" name="Net-(SW39-Pad2)">
+      <node ref="SW39" pin="2"/>
+    </net>
+    <net code="145" name="Net-(SW42-Pad1)">
+      <node ref="SW42" pin="1"/>
+    </net>
+    <net code="146" name="Net-(SW42-Pad2)">
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="147" name="Net-(MES1-Pad2)">
+      <node ref="MES1" pin="2"/>
+    </net>
+    <net code="148" name="Net-(MES2-Pad2)">
+      <node ref="MES2" pin="2"/>
+    </net>
+    <net code="149" name="Net-(MES3-Pad2)">
+      <node ref="MES3" pin="2"/>
+    </net>
+    <net code="150" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="151" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="152" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="153" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="154" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="155" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="156" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="157" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="158" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="159" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="160" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="161" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="162" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="163" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="164" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="165" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="166" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="167" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="168" name="Net-(U1-Pad~)">
+      <node ref="U1" pin="~"/>
+    </net>
+    <net code="169" name="Net-(SW28-Pad1)">
+      <node ref="SW28" pin="1"/>
+    </net>
+    <net code="170" name="Net-(SW28-Pad2)">
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="171" name="Net-(SW31-Pad1)">
+      <node ref="SW31" pin="1"/>
+    </net>
+    <net code="172" name="Net-(SW31-Pad2)">
+      <node ref="SW31" pin="2"/>
+    </net>
+    <net code="173" name="Net-(SW34-Pad1)">
+      <node ref="SW34" pin="1"/>
+    </net>
+    <net code="174" name="Net-(SW34-Pad2)">
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="175" name="Net-(SW37-Pad1)">
+      <node ref="SW37" pin="1"/>
+    </net>
+    <net code="176" name="Net-(SW37-Pad2)">
+      <node ref="SW37" pin="2"/>
+    </net>
+  </nets>
+</export>
