@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Subsystem Main Extra Symbols")(type "KiCad")(uri "${KIPRJMOD}/Subsystem Main Extra Symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "Subsystem Main")(type "EAGLE")(uri "${KIPRJMOD}/Subsystem Main.lbr")(options "")(descr ""))
-)

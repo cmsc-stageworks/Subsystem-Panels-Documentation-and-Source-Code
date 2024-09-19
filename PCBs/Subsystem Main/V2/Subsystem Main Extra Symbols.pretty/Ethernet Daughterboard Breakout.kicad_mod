@@ -1,0 +1,177 @@
+(footprint "Ethernet Daughterboard Breakout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "065d2c4d-b11d-41d5-9adf-439bca4dc8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ethernet Daughterboard Breakout"
+		(at 0 -1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cbbb1ac8-02be-405e-8aa7-a211dde2bf5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9d35249-2c69-4d58-98ce-c4a2de7f127d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12d28c83-074c-4fa1-9ea9-1e718bfe128f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4f28014-6c0d-4a4c-935e-557e9171116e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.08 -7.62)
+		(end 5.08 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "36167e24-b80b-42ca-901f-a4f52510e1e5")
+	)
+	(fp_text user "5V"
+		(at -5.08 -5.334 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c8db5e9-10e4-4efc-9d13-3ab03b6e7a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Ethernet Daughterboard"
+		(at -8.89 -8.255 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5623edb8-b9f8-492b-a12b-6e1e6bff58f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 6.35 -4.826 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d126976-2186-4d10-8982-a187c094180e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Serial Interface"
+		(at -5.715 -3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de2c6483-84b3-48ac-bb24-81baa2c07477")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.405 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a028da3-387d-4b26-9d62-9be198d4f960")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -6.35)
+		(size 1.778 1.778)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d74674f-df4e-4516-bf7b-fcf1bff30aa7")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -6.35)
+		(size 1.778 1.778)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3503993d-41cd-4800-b9d4-0686f78912ee")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -6.35 90)
+		(size 1.778 1.778)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "108c5238-f00f-4ce4-8878-d5064698f3a0")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -6.35)
+		(size 1.778 1.778)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "746fbfe7-7d23-4a6e-99d3-49ab12b8c54d")
+	)
+)

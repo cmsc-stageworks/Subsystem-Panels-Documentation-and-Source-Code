@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Subsystem Main Extra Symbols")(type "KiCad")(uri "${KIPRJMOD}/Subsystem Main Extra Symbols.pretty")(options "")(descr ""))
-  (lib (name "Subsystem Main")(type "KiCad")(uri "${KIPRJMOD}/Subsystem Main.pretty")(options "")(descr ""))
-)
