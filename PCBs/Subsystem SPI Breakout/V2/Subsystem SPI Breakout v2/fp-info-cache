@@ -1,0 +1,106 @@
+25792911271799
+Subsystem Main
+2.4'_TFT_SPI_ILI9341_WITH_SD_CARD
+
+
+0
+18
+18
+Subsystem Main
+7_SEG_DISPLAY
+
+
+0
+4
+4
+Subsystem Main
+ARDUINO_MEGA
+
+
+0
+85
+85
+Subsystem Main
+ARDUINO_MEGA_MIRROR
+
+
+0
+85
+85
+Subsystem Main
+BI_DIRECTIONAL_LOGIC_LEVEL_CONVERTER
+
+
+0
+12
+12
+Subsystem Main
+BUTTON_GRID_HEADER_LINE
+
+
+0
+8
+8
+Subsystem Main
+BUTTON_GRID_HEADER_RIBBON_CONNECTOR
+
+
+0
+8
+8
+Subsystem Main
+ETHERNET_ADAPTER
+
+
+0
+10
+10
+Subsystem Main
+ILI9341_FOOTPRINT
+
+
+0
+7
+7
+Subsystem Main
+ROTARY_ENCODER
+
+
+0
+5
+5
+Subsystem Main
+SD_CARD_READER
+
+
+0
+8
+8
+Subsystem Main
+SPI_HEADER_LINE
+
+
+0
+10
+10
+Subsystem Main
+SPI_HEADER_RIBBON_CONNECTOR
+
+
+0
+10
+10
+Subsystem Main
+Small_Potentiometer
+
+
+0
+3
+3
+Subsystem Main
+THROUGH_HOLE_RESISTOR
+
+
+0
+2
+2
