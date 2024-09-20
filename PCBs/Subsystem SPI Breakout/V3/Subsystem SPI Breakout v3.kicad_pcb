@@ -125,7 +125,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "93f21594-892d-4c1c-9f3d-64fb72e4b3fd")
 			(effects
 				(font
@@ -629,7 +629,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "7b1de0b8-8394-44b7-b2b7-d1831255d405")
 			(effects
 				(font
@@ -801,7 +801,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "e01764bc-5216-4796-a82f-b6c4ffde56e5")
 			(effects
 				(font
@@ -1437,7 +1437,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4bba6152-160b-4531-a741-9722da531a69")
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "bc4dc2db-d31c-4033-b5b8-bd4d8a5dc80e")
 			(effects
 				(font
@@ -1781,7 +1781,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f1b4ac59-1f7a-4b19-a401-4805956d5421")
 			(effects
 				(font
@@ -1953,7 +1953,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2d3ba1a4-4de2-4da5-bbea-1418f6f754cc")
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8dbb5a90-5ff9-4244-9726-300dcb4af0b8")
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "LS1"
-			(at 2.54 -5.08 360)
+			(at 2.54 -5.08 0)
 			(layer "F.SilkS")
 			(uuid "ef691e1d-9df5-46c9-853d-942a89ad35fd")
 			(effects
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 2.54 5.08 360)
+			(at 2.54 5.08 0)
 			(layer "F.Fab")
 			(uuid "4b04b230-ef3e-4291-98fb-124b2be16e43")
 			(effects
@@ -3087,7 +3087,7 @@
 			(uuid "7582d2eb-0f32-44f7-a372-a0cbf7927f4b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "67675bdf-281c-44ad-a208-5537917f692f")
 			(effects
@@ -3149,7 +3149,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "21ccc55a-f65a-4c10-8be4-9dc9f95ee321")
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "800c2c0e-9de4-4e3e-969a-c82db9a3c593")
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "fdf7d785-6e23-47e2-a986-835370aa2bb3")
 			(effects
 				(font
@@ -4421,7 +4421,7 @@
 		)
 		(property "Value" "10 Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "b54c3454-0f7b-4f0a-bd6a-7c39a5929ee3")
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "8089bd4a-9087-4aff-9eaa-aaf2bf9052de")
 			(effects
 				(font
@@ -4765,7 +4765,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "3b572370-13d5-4908-b39a-7a9646c80564")
 			(effects
 				(font
@@ -5401,7 +5401,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1332ed11-e0fe-48dc-b457-254c96e20595")
 			(effects
 				(font
@@ -5573,7 +5573,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "454619f9-fc53-45d2-a8d7-445af08be29f")
 			(effects
 				(font
@@ -5744,8 +5744,8 @@
 			)
 		)
 		(property "Value" "10k Ω"
-			(at 0 -2 90)
-			(layer "F.Fab")
+			(at 0 1.905 90)
+			(layer "F.SilkS")
 			(uuid "02191913-dac2-43e4-8e74-bb7a1aaec294")
 			(effects
 				(font
@@ -5917,7 +5917,7 @@
 		)
 		(property "Value" "10k Ω"
 			(at 0 -2 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "076d82de-7e5d-4561-9eed-a8c801ba0918")
 			(effects
 				(font
