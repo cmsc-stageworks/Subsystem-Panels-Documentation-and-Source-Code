@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Subsystem SPI Breakout v2.kicad_pro",
+    "filename": "Subsystem SPI Breakout v3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Cam/",
+      "plot": "Fabrication Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

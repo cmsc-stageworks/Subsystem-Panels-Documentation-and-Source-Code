@@ -984,8 +984,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Subsystem Main Extra Symbols:T_IRQ"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
