@@ -973,294 +973,6 @@
 				)
 			)
 		)
-		(symbol "Subsystem Main:SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Subsystem Main:SPI_HEADER_RIBBON_CONNECTOR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR_1_0"
-				(polyline
-					(pts
-						(xy -25.4 -5.08) (xy 25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy 25.4 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 5.08) (xy 25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -22.86 10.16 270)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 10.16 270)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 10.16 270)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 10.16 270)
-					(length 5.08)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 10.16 270)
-					(length 5.08)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 10.16 270)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 10.16 270)
-					(length 5.08)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 10.16 270)
-					(length 5.08)
-					(name "SPKR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SPKR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 270)
-					(length 5.08)
-					(name "TFT_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TFT_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 10.16 270)
-					(length 5.08)
-					(name "TFT_DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TFT_DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Subsystem Main:THROUGH_HOLE_RESISTOR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1849,44 +1561,188 @@
 		)
 	)
 	(junction
-		(at 67.31 36.83)
+		(at 275.59 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "051925fc-5734-4667-96a8-9bfe677b0efe")
+	)
+	(junction
+		(at 121.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06bdb1a2-90d1-4fba-87a0-55ddf0b21a5d")
+	)
+	(junction
+		(at 240.03 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ab186bd-0ecb-4a76-b41a-0fced7c6a62a")
+	)
+	(junction
+		(at 152.4 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2358df23-ffc8-4487-96c7-e0569c50ceaf")
+	)
+	(junction
+		(at 275.59 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d068f28-5a52-488a-beaf-6aa70c0a75a9")
+	)
+	(junction
+		(at 69.85 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ea5ac30-e621-4a9c-b44d-8b1a0c799097")
 	)
 	(junction
-		(at 62.23 36.83)
+		(at 241.3 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3158811f-f8c1-4406-ba36-e23f716ff64b")
+		(uuid "36cfd304-5769-436c-a26d-03452b99bf88")
 	)
 	(junction
-		(at 120.65 63.5)
+		(at 172.72 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7e41cc5a-451c-4ba0-b4d5-0b172c1c758a")
+		(uuid "469b1cb8-a0bf-424b-955b-924eb11097d6")
 	)
 	(junction
-		(at 119.38 60.96)
+		(at 186.69 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f11f690-0e45-47fe-a0c5-84c209dfdb65")
+		(uuid "4712594a-5748-49c7-bee8-9382db6cc953")
 	)
 	(junction
-		(at 40.64 99.06)
+		(at 219.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a4d9c3-0cb4-457f-b460-982400216145")
+	)
+	(junction
+		(at 185.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64948415-e792-4a1f-8f43-d3acac342976")
+	)
+	(junction
+		(at 123.19 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65181e5f-798a-4b6b-9872-3c5ca6a7d8dd")
+	)
+	(junction
+		(at 220.98 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dbbe8cc-bac1-4473-9bde-8e3ea41c2217")
+	)
+	(junction
+		(at 205.74 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817d612f-7207-41a1-924e-94ff4555b958")
+	)
+	(junction
+		(at 152.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "843f947c-ab8f-4a7e-8f0d-fc6c4f2b6b59")
 	)
 	(junction
-		(at 97.79 76.2)
+		(at 207.01 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944645b0-33f3-4ef1-a98e-75d04f5c8240")
+	)
+	(junction
+		(at 255.27 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c20557f-4ac7-402c-ada5-237e125829d4")
+	)
+	(junction
+		(at 64.77 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b21073fb-2182-42fa-9de8-4573acb5b2a2")
+	)
+	(junction
+		(at 121.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22db79c-c121-46e6-bafb-63e20a929a4e")
+	)
+	(junction
+		(at 255.27 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4738fe-ecc4-4811-85e1-86e9c49a75b9")
+	)
+	(junction
+		(at 205.74 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cace1521-28e4-4a8a-b284-a6041343f36b")
+	)
+	(junction
+		(at 240.03 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb2ea8c9-bd23-4340-850d-67bec4af9e9b")
+	)
+	(junction
+		(at 172.72 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d277dd2f-dc21-4d26-a3a9-0b5f6bc5299a")
+	)
+	(junction
+		(at 172.72 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5a0202-9ed6-4daa-96e2-2a22131807d3")
+	)
+	(junction
+		(at 275.59 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9e47f9-00ce-46df-92e6-e7eb756664ae")
+	)
+	(junction
+		(at 100.33 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e55e04bd-0bb0-4b25-bb82-d140a06af732")
 	)
+	(junction
+		(at 241.3 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9f06344-7f26-4317-b54a-7552a8fb443b")
+	)
+	(junction
+		(at 207.01 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed7c34c5-6f91-442f-ac5e-ddae32cc1c61")
+	)
+	(junction
+		(at 172.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0fc73df-c999-4eac-8af6-6f1f83ba8162")
+	)
+	(junction
+		(at 275.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f124df2e-0dc2-4ac4-8198-aa5d42566054")
+	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 151.13 39.37)
+			(xy 153.67 53.34) (xy 153.67 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 111.76) (xy 53.34 111.76)
+			(xy 152.4 96.52) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 73.66) (xy 123.19 73.66)
+			(xy 59.69 71.12) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1772,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 80.01) (xy 120.65 80.01)
+			(xy 255.27 125.73) (xy 255.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0715b9b8-cf2a-4a26-b69b-76dff3f27bdd")
+	)
+	(wire
+		(pts
+			(xy 217.17 83.82) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0882497b-2c8b-4cd4-a175-90ccf733280b")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 123.19 63.5)
+			(xy 123.19 60.96) (xy 125.73 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1936,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 99.06) (xy 40.64 99.06)
+			(xy 149.86 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 120.65 63.5)
+			(xy 123.19 77.47) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +1832,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 111.76)
+			(xy 44.45 33.02) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e9c385-5bef-4b67-aa13-a0b454ee869f")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1966,7 +1852,27 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 119.38 39.37)
+			(xy 119.38 43.18) (xy 125.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19042086-c7cf-41a7-ab7a-fcd6fabf35a8")
+	)
+	(wire
+		(pts
+			(xy 255.27 83.82) (xy 255.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196c5773-3e4d-40f5-962e-b676ba103389")
+	)
+	(wire
+		(pts
+			(xy 153.67 36.83) (xy 121.92 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1976,7 +1882,37 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 152.4) (xy 63.5 158.75)
+			(xy 219.71 83.82) (xy 219.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e13325d-7d7a-42b5-adb7-1e5415771efc")
+	)
+	(wire
+		(pts
+			(xy 248.92 113.03) (xy 255.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20598d8e-2a57-4867-8ca0-268599ca6524")
+	)
+	(wire
+		(pts
+			(xy 172.72 123.19) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2297043c-5f6f-449e-ac92-50892e6399e3")
+	)
+	(wire
+		(pts
+			(xy 66.04 149.86) (xy 66.04 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +1922,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 58.42) (xy 151.13 58.42)
+			(xy 241.3 123.19) (xy 241.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28307a8c-2124-46b6-a1a6-61bd36e5e423")
+	)
+	(wire
+		(pts
+			(xy 162.56 55.88) (xy 153.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +1942,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 39.37) (xy 119.38 60.96)
+			(xy 205.74 81.28) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5908cf-f197-4617-a30a-a117fa68ba9f")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +1962,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 116.84) (xy 60.96 128.27)
+			(xy 123.19 60.96) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3133aa01-5e71-4142-ba9e-5fd334e22702")
+	)
+	(wire
+		(pts
+			(xy 255.27 96.52) (xy 267.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336d2317-51ba-455b-baad-2bd80b2dc6a1")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2016,17 +1992,37 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 62.23 40.64)
+			(xy 172.72 125.73) (xy 172.72 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36a07b9c-ad33-4582-820c-e26c1aac64af")
+		(uuid "354b5adb-a300-4591-8f2b-25c4913f1f1e")
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 106.68 50.8)
+			(xy 172.72 154.94) (xy 172.72 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3788ba2d-58ba-4ddb-adf9-6cc66413a153")
+	)
+	(wire
+		(pts
+			(xy 255.27 138.43) (xy 267.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e39a76-62c7-4763-801b-ba5640a9f721")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2036,17 +2032,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 120.65 63.5)
+			(xy 213.36 113.03) (xy 219.71 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "439fd7b8-81d8-4325-ab09-8e1614eabd70")
+		(uuid "3a322fe3-e3ae-4c96-9573-3b6a196d7add")
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 123.19 76.2)
+			(xy 113.03 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da99f9f-3b9d-4322-adba-4e1eee54d6d7")
+	)
+	(wire
+		(pts
+			(xy 100.33 73.66) (xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2056,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 152.4) (xy 31.75 152.4)
+			(xy 24.13 149.86) (xy 34.29 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2072,27 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 36.83) (xy 62.23 36.83)
+			(xy 275.59 123.19) (xy 275.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51833986-5c91-402d-8498-982957613f6e")
+	)
+	(wire
+		(pts
+			(xy 207.01 154.94) (xy 207.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5332bb5a-9984-4d21-a0fa-4e60484bb2d4")
+	)
+	(wire
+		(pts
+			(xy 17.78 50.8) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 123.19 60.96)
+			(xy 121.92 58.42) (xy 125.73 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2086,7 +2112,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 160.02 33.02)
+			(xy 214.63 154.94) (xy 220.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8264ba-f00b-454e-a2c0-f226558ecc62")
+	)
+	(wire
+		(pts
+			(xy 110.49 30.48) (xy 162.56 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2096,7 +2132,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 60.96 106.68)
+			(xy 16.51 33.02) (xy 16.51 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdbf0ca-9118-4444-8518-57fe36538b5d")
+	)
+	(wire
+		(pts
+			(xy 185.42 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c1249f-d490-4aa6-8406-a8ffe7e9dd67")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2106,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 36.83) (xy 15.24 176.53)
+			(xy 17.78 50.8) (xy 17.78 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2116,7 +2172,57 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 33.02) (xy 160.02 58.42)
+			(xy 152.4 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c822ab-d740-4cc5-9b45-520b8926a23c")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 205.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c324e3-52de-4f8e-a808-cf18c76fb3e4")
+	)
+	(wire
+		(pts
+			(xy 207.01 123.19) (xy 207.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67da260f-a24c-419e-adbe-2ce01e69f5df")
+	)
+	(wire
+		(pts
+			(xy 180.34 154.94) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aac7d63-070b-45a0-a97b-b09d3dc206dd")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3ad48b-35b8-4bf0-ae32-f78ecd3705e3")
+	)
+	(wire
+		(pts
+			(xy 162.56 30.48) (xy 162.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2232,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 76.2) (xy 97.79 76.2)
+			(xy 64.77 38.1) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72dfb81d-5acc-41ba-b2e6-f534d8cc8c43")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 100.33 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2136,17 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 105.41 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74bc3539-4efa-4996-9969-84a131fa9cea")
-	)
-	(wire
-		(pts
-			(xy 38.1 176.53) (xy 15.24 176.53)
+			(xy 40.64 173.99) (xy 17.78 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 128.27) (xy 40.64 128.27)
+			(xy 146.05 113.03) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2272,77 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 55.88) (xy 107.95 33.02)
+			(xy 186.69 138.43) (xy 199.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ed8f6d-bcbf-407e-b49c-712305e2300e")
+	)
+	(wire
+		(pts
+			(xy 146.05 154.94) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c73524c-7210-4f66-8d2a-6f4df6bcce33")
+	)
+	(wire
+		(pts
+			(xy 219.71 96.52) (xy 232.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f419978-c0e8-418e-8bf9-5724b4326f78")
+	)
+	(wire
+		(pts
+			(xy 275.59 83.82) (xy 275.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800b2800-b8d8-4e2c-ab9b-7ffaafb113cf")
+	)
+	(wire
+		(pts
+			(xy 240.03 113.03) (xy 240.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80555263-6cc1-424a-9f2d-633736b777f3")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82218923-cea7-4b31-a80c-8b0e345c020b")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cffee1-dc1c-41a5-a219-cfa8f55ca16d")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 110.49 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 60.96) (xy 153.67 60.96)
+			(xy 153.67 58.42) (xy 156.21 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2186,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 152.4) (xy 63.5 152.4)
+			(xy 54.61 149.86) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2196,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 73.66) (xy 57.15 31.75)
+			(xy 59.69 71.12) (xy 59.69 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2382,77 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 55.88) (xy 123.19 55.88)
+			(xy 184.15 125.73) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae2e532-4ecb-4c42-b421-ac5cfd5b29ad")
+	)
+	(wire
+		(pts
+			(xy 205.74 83.82) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b25576e-abb6-482c-88b4-9225f857a335")
+	)
+	(wire
+		(pts
+			(xy 252.73 83.82) (xy 255.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d879bbd-e9a6-4286-b678-b4899180c7f9")
+	)
+	(wire
+		(pts
+			(xy 207.01 125.73) (xy 207.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d882536-f0e1-428a-938e-696f2ad9a150")
+	)
+	(wire
+		(pts
+			(xy 240.03 81.28) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffa3688-16cd-435e-94b6-100340ef09aa")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939f6ace-2f65-4f80-b1b3-f1c3793e0174")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 29.21 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947ed700-f6d8-49de-80ec-ff6b321ac65f")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 125.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2462,87 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 60.96) (xy 153.67 80.01)
+			(xy 275.59 113.03) (xy 275.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eed9565-295e-4222-975f-7eed70794ead")
+	)
+	(wire
+		(pts
+			(xy 68.58 38.1) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a222e57c-1464-455c-a679-f996a1461b46")
+	)
+	(wire
+		(pts
+			(xy 241.3 143.51) (xy 241.3 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52cef47-1ef7-4e0d-9f10-c0bf974296b0")
+	)
+	(wire
+		(pts
+			(xy 20.32 33.02) (xy 20.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a6e4ea-40c9-483b-a6da-aa922f793766")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fb789f-33f6-4ec0-bf0e-0e62b9a1d27b")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 39.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca22871-66a1-472b-be0c-fca1eed243a1")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 152.4 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad19a7cd-7c9c-4d2d-a519-4c92f2ee2ce0")
+	)
+	(wire
+		(pts
+			(xy 220.98 138.43) (xy 233.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa70ca0-bb66-419f-b5ae-0361d69bb39f")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 156.21 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 36.83) (xy 72.39 36.83)
+			(xy 69.85 34.29) (xy 74.93 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2562,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 106.68 58.42)
+			(xy 114.3 48.26) (xy 125.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf2e6a6-9973-49d6-8883-052ea260ffdd")
+	)
+	(wire
+		(pts
+			(xy 241.3 125.73) (xy 241.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba412d5-56d4-4df4-a5d3-a394be0c7142")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2592,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 36.83) (xy 67.31 76.2)
+			(xy 185.42 83.82) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4e9229-8029-40f9-bd64-97dea5f7a260")
+	)
+	(wire
+		(pts
+			(xy 69.85 34.29) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 38.1 176.53)
+			(xy 40.64 166.37) (xy 40.64 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2622,27 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 31.75) (xy 21.59 152.4)
+			(xy 275.59 154.94) (xy 275.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d26503-ee59-4b9a-81d8-ccf4c9d4e833")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70c4830-87f7-41f6-88bd-d24961b706a2")
+	)
+	(wire
+		(pts
+			(xy 24.13 29.21) (xy 24.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2652,127 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 36.83) (xy 62.23 31.75)
+			(xy 172.72 81.28) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96ae3ab-77b6-48f2-90eb-92427947d3af")
+	)
+	(wire
+		(pts
+			(xy 275.59 81.28) (xy 275.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb850ba5-0c1f-4c94-a467-0fa889e92658")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc0e074-b127-4927-b09b-9bb53e7f3896")
+	)
+	(wire
+		(pts
+			(xy 172.72 143.51) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddd320f-1394-4ca5-aff9-5df3ba5bd12d")
+	)
+	(wire
+		(pts
+			(xy 121.92 50.8) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebc2f59-6cab-4a9c-924a-ec044e8ffd6a")
+	)
+	(wire
+		(pts
+			(xy 34.29 33.02) (xy 34.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0740e6e-5d09-4928-9306-485225ef12b7")
+	)
+	(wire
+		(pts
+			(xy 123.19 45.72) (xy 125.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a9caec-a910-452d-af95-d763bc2341b0")
+	)
+	(wire
+		(pts
+			(xy 54.61 33.02) (xy 54.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d559c171-f022-4752-848c-105bcc171b10")
+	)
+	(wire
+		(pts
+			(xy 241.3 154.94) (xy 241.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f03c4b-59a4-466d-9b91-6a2f6ec371e6")
+	)
+	(wire
+		(pts
+			(xy 205.74 113.03) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85f8d6e-0251-42ff-b90e-4dc6e7eb69f3")
+	)
+	(wire
+		(pts
+			(xy 275.59 101.6) (xy 275.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5e897b-2ef6-4e6c-b6b8-85a34a5c4c7a")
+	)
+	(wire
+		(pts
+			(xy 207.01 143.51) (xy 207.01 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2983a9-8ebb-477d-b0d6-4c0a802eb2f4")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 64.77 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2782,37 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 31.75) (xy 67.31 36.83)
+			(xy 121.92 50.8) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2920b9c-8039-4c87-b1a2-4b3c959da451")
+	)
+	(wire
+		(pts
+			(xy 252.73 125.73) (xy 255.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8faf0f1-a106-4577-86ba-fe0d8321ea06")
+	)
+	(wire
+		(pts
+			(xy 240.03 83.82) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b34f7c-5732-40a7-8933-f3dfa625b641")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2822,47 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 123.19 58.42)
+			(xy 248.92 154.94) (xy 255.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6a092e-1462-4fe9-ae32-301da3e41478")
+	)
+	(wire
+		(pts
+			(xy 220.98 125.73) (xy 220.98 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b0acd6-d534-4164-b533-261ec7ea737c")
+	)
+	(wire
+		(pts
+			(xy 218.44 125.73) (xy 220.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f463b70f-7c32-40f6-b3f9-f2ca0c750b50")
+	)
+	(wire
+		(pts
+			(xy 275.59 125.73) (xy 275.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabb1442-c98d-4c80-8db9-a294011fa9cf")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 125.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2304,8 +2870,28 @@
 		)
 		(uuid "fb2d800a-a88f-416d-97b1-f7a9fd093b75")
 	)
+	(wire
+		(pts
+			(xy 275.59 143.51) (xy 275.59 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea51631-428f-46ee-a68a-ee8f2a60268a")
+	)
+	(wire
+		(pts
+			(xy 172.72 113.03) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2e12c5-7752-48db-b5ae-c625dd47f25f")
+	)
 	(label "5V"
-		(at 62.23 40.64 180)
+		(at 68.58 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2315,8 +2901,19 @@
 		)
 		(uuid "115956d2-d588-47ba-b6ae-ac99d4b61da4")
 	)
+	(label "CS_TOUCH_3V3"
+		(at 114.3 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15ebafbc-db58-4606-b3e6-0d7946033016")
+	)
 	(label "3V3"
-		(at 38.1 99.06 180)
+		(at 149.86 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2327,7 +2924,216 @@
 		(uuid "22304f23-c130-4c3b-8138-cf21f39ad66a")
 	)
 	(label "5V"
-		(at 34.29 128.27 180)
+		(at 180.34 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "302391b0-ab4e-484b-bdc1-db2e6a57d10a")
+	)
+	(label "MISO_3V3"
+		(at 240.03 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33fcf593-d582-40e7-a5bd-d27a7cf34264")
+	)
+	(label "5V"
+		(at 179.07 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "345c07d1-f80e-45c2-a73d-30e05117a87b")
+	)
+	(label "3V3"
+		(at 184.15 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c428250-7cfc-4a6a-b5ff-35a32f802fd0")
+	)
+	(label "CS_TFT_5V"
+		(at 275.59 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44a54ef9-ae65-4082-b891-05d6a279c93a")
+	)
+	(label "3V3"
+		(at 252.73 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46e8eade-a9d0-4d78-84cb-85215464650f")
+	)
+	(label "CS_TOUCH_3V3"
+		(at 241.3 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "620d7322-21d4-48dc-b6e0-80ec083debab")
+	)
+	(label "RESET_5V"
+		(at 275.59 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "651a43de-afb8-45be-91a6-8426e66ed1ea")
+	)
+	(label "CS_SD_5V"
+		(at 39.37 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6792ec40-33d4-4598-a4a2-071607a76366")
+	)
+	(label "3V3"
+		(at 149.86 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67e31c7d-5636-404b-ac25-5c96c15f5193")
+	)
+	(label "CS_SD_3V3"
+		(at 207.01 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69139ef0-6b12-4837-aa00-bed1637e31ad")
+	)
+	(label "CS_TFT_5V"
+		(at 34.29 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69ea031e-ff0e-4bbf-9cfe-14430cdddd2b")
+	)
+	(label "5V"
+		(at 146.05 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70677a65-ea00-487b-bc8c-1272284f478e")
+	)
+	(label "MISO_5V"
+		(at 44.45 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70734fcb-7d31-4a97-81a2-cf1948d57518")
+	)
+	(label "CS_TOUCH_5V"
+		(at 16.51 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "730944c0-9fbf-4e4c-8a86-1ae8345cc24a")
+	)
+	(label "SCK_5V"
+		(at 172.72 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76f5b441-5a14-4ea3-b104-f2c391498bb0")
+	)
+	(label "MOSI_5V"
+		(at 49.53 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79232256-693d-4ff1-b30f-360b57192b2b")
+	)
+	(label "MISO_5V"
+		(at 240.03 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a346551-f3bd-43fa-a03b-12b843fb34da")
+	)
+	(label "DC_5V"
+		(at 172.72 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d3c93e1-6bca-4948-a668-67dd80146a2b")
+	)
+	(label "5V"
+		(at 146.05 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2337,8 +3143,74 @@
 		)
 		(uuid "82c6dfa0-0dd5-466c-9a59-c3f541d2d4d8")
 	)
+	(label "SCK_3V3"
+		(at 113.03 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84283b2c-80bd-4cc2-a7ce-4291360c59d5")
+	)
+	(label "CS_SD_5V"
+		(at 207.01 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8df70d38-0212-4b03-8459-6c8eb6800f66")
+	)
+	(label "DC_3V3"
+		(at 172.72 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92b4a9cc-71d0-4662-8cda-bb854d5d0372")
+	)
+	(label "5V"
+		(at 213.36 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "989c729b-447d-4ecc-9483-0101c46f4b6e")
+	)
+	(label "3V3"
+		(at 252.73 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0f297a7-735c-4075-9972-274520bcb519")
+	)
+	(label "MOSI_5V"
+		(at 205.74 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfc4f959-f11e-4bca-b283-a91a525c17e8")
+	)
 	(label "GND"
-		(at 68.58 166.37 0)
+		(at 71.12 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2348,8 +3220,74 @@
 		)
 		(uuid "c2fffa38-a42a-4f47-9ab6-c23f93bd154a")
 	)
+	(label "RESET_5V"
+		(at 20.32 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c398475e-4b59-4785-b6ce-fcf2a4339c39")
+	)
+	(label "RESET_3V3"
+		(at 275.59 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c764b8b6-701c-469c-b251-880b5ee24976")
+	)
+	(label "MISO_3V3"
+		(at 119.38 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8b1b075-b4fb-40f5-b08a-5f00c05fe45f")
+	)
+	(label "SCK_3V3"
+		(at 172.72 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d461a98b-79cd-4624-82ac-ecf48d190dd6")
+	)
+	(label "CS_TFT_3V3"
+		(at 275.59 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d53067c8-ef49-450d-9702-558fa6295a0e")
+	)
+	(label "3V3"
+		(at 218.44 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d68f9496-0a50-4db0-8bd9-c8b12db6fdb4")
+	)
 	(label "GND"
-		(at 57.15 67.31 270)
+		(at 59.69 64.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2359,8 +3297,30 @@
 		)
 		(uuid "dc45e0fd-4dda-4149-b1cb-e396ed9fbe8f")
 	)
+	(label "DC_5V"
+		(at 29.21 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc699552-19d4-46f0-bea0-c14639bca189")
+	)
 	(label "3V3"
-		(at 72.39 36.83 180)
+		(at 182.88 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e16fbf3f-511b-4dae-8c4a-ee88cc4676a4")
+	)
+	(label "3V3"
+		(at 74.93 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2370,9 +3330,156 @@
 		)
 		(uuid "e82f7fd2-fb29-43d9-920b-6756b0f0d91a")
 	)
+	(label "CS_TOUCH_5V"
+		(at 241.3 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef70e718-4a78-4cb9-b7c4-58363f10655c")
+	)
+	(label "SCK_5V"
+		(at 54.61 33.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efd6b67a-7ceb-489e-b6a7-c328dce14ed2")
+	)
+	(label "5V"
+		(at 248.92 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0b29d0f-6fef-4d55-904e-e66995baf791")
+	)
+	(label "MOSI_3V3"
+		(at 205.74 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f27a77b8-c701-40e3-817b-ee915152b13f")
+	)
+	(label "MOSI_3V3"
+		(at 113.03 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f27dd663-a805-46fb-b3c5-c2ea7a5462da")
+	)
+	(label "3V3"
+		(at 217.17 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3ee300c-0b83-4401-bb19-6d028704d442")
+	)
+	(label "5V"
+		(at 248.92 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fba90fb0-d49d-4248-87c4-6bb1a43886b1")
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 265.43 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06941873-7bdd-4f42-8761-238287d1b9ec")
+		(property "Reference" "R18"
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 270.764 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 265.684 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.764 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.764 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "40572ae5-d58b-4eee-a9c8-57006dd553bf")
+		)
+		(pin "P$1"
+			(uuid "b5f9aaac-1290-4a33-95bf-62e32638faea")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 33.02 168.91 180)
+		(at 35.56 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2381,7 +3488,7 @@
 		(fields_autoplaced yes)
 		(uuid "117b63e7-7561-4260-9360-e2ec50fe1b2c")
 		(property "Reference" "LS1"
-			(at 32.512 157.48 0)
+			(at 35.052 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +3496,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 32.512 160.02 0)
+			(at 35.052 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +3504,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 33.02 163.83 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +3513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.274 167.64 0)
+			(at 35.814 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +3522,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 33.02 168.91 0)
+			(at 35.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,8 +3546,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 204.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17e4f5ec-faa1-4dc3-8c4b-43ea847e5014")
+		(property "Reference" "Q7"
+			(at 210.82 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 210.82 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 209.55 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 204.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1015258-363f-42d7-8bb5-8307def3a129")
+		)
+		(pin "3"
+			(uuid "be784e4c-5ef8-446f-bfa3-b1ddb42fdc10")
+		)
+		(pin "1"
+			(uuid "f7c04e42-cdc2-48cb-bc2a-3bb926016f24")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
-		(at 50.8 99.06 0)
+		(at 162.56 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,7 +3632,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fb33afe-b56c-4cce-88dd-f30a8b50c12e")
 		(property "Reference" "R1"
-			(at 50.8 96.52 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +3641,7 @@
 			)
 		)
 		(property "Value" "10k Ω"
-			(at 56.134 95.758 0)
+			(at 167.894 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +3650,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
-			(at 51.054 101.346 0)
+			(at 162.814 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +3659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.134 95.758 0)
+			(at 167.894 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +3668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.134 95.758 0)
+			(at 167.894 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,17 +3692,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Subsystem Main:SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR")
-		(at 44.45 21.59 180)
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 265.43 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37d3ac35-9eeb-43aa-bd11-7d13d4741c17")
-		(property "Reference" "1"
-			(at 44.45 21.59 0)
+		(uuid "21c04bc8-2f04-4eda-b1aa-30e0168688a9")
+		(property "Reference" "R11"
+			(at 265.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,8 +3710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 44.45 21.59 0)
+		(property "Value" "10k Ω"
+			(at 270.764 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,8 +3719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Subsystem Main:SPI_HEADER_RIBBON_CONNECTOR"
-			(at 44.45 21.59 0)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 265.684 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +3729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 21.59 0)
+			(at 270.764 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +3738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 21.59 0)
+			(at 270.764 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,40 +3746,232 @@
 				(hide yes)
 			)
 		)
-		(pin "SD_CS"
-			(uuid "458787ca-d257-41d7-8c6e-32586797dd6f")
+		(pin "P$2"
+			(uuid "9428cc00-985a-4b34-b1a4-72f176373dc7")
 		)
-		(pin "3V3"
-			(uuid "b8174d70-5596-4251-9704-3f73ad5a094e")
-		)
-		(pin "SCK"
-			(uuid "73f28946-ebd7-4627-94e2-0f220fb3acfb")
-		)
-		(pin "SPKR"
-			(uuid "b11afc6d-c6cf-4fb2-b29f-9a86487ccb5d")
-		)
-		(pin "MOSI"
-			(uuid "df2fe20e-e508-49f0-b0cd-ee3422c9a83b")
-		)
-		(pin "GND"
-			(uuid "5861e3a7-70d7-4a80-ad6f-55feb3ff3d56")
-		)
-		(pin "MISO"
-			(uuid "7030867e-401c-4c84-9742-7459673b6039")
-		)
-		(pin "5V"
-			(uuid "b82b6a4c-097f-4780-963a-a1089d74f38b")
-		)
-		(pin "TFT_DC"
-			(uuid "0d5d250c-1f5b-463a-8b25-612c8e7bb6a7")
-		)
-		(pin "TFT_CS"
-			(uuid "8d25932c-cd2a-4369-8beb-ef8be512659d")
+		(pin "P$1"
+			(uuid "80abec58-8103-4063-93de-e250418db438")
 		)
 		(instances
-			(project ""
+			(project "Subsystem SPI Breakout v3"
 				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
-					(reference "1")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 195.58 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d2a3976-2164-44fa-bbe1-afc9776362c6")
+		(property "Reference" "R3"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 200.914 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 195.834 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.914 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.914 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "7d0336d9-e5b3-4369-b83b-33297d4a366f")
+		)
+		(pin "P$1"
+			(uuid "16fea9d2-d831-47ac-8a06-47f1f2675905")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 203.2 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dafa254-3722-4fa6-a943-f4b2a337e953")
+		(property "Reference" "Q2"
+			(at 209.55 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 209.55 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 208.28 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "817432ff-d2a0-4ef6-8708-6435ce0a25d5")
+		)
+		(pin "3"
+			(uuid "52723923-be84-47a6-8869-2033c9554801")
+		)
+		(pin "1"
+			(uuid "0c9db0e9-3527-4bec-b7ec-242e2a7c3336")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 162.56 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7f672e-0f67-465a-9f95-c5138a42feca")
+		(property "Reference" "R12"
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 167.894 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 162.814 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.894 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.894 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "e6538a30-bd9d-4c1b-99d6-a7f796ff6a2e")
+		)
+		(pin "P$1"
+			(uuid "8be1aae4-d382-4007-b54a-17a35a1476c2")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2605,7 +3980,7 @@
 	(symbol
 		(lib_name "2.4'_TFT_SPI_ILI9341_WITH_SD_CARD_1")
 		(lib_id "Subsystem Main:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD")
-		(at 137.16 59.69 0)
+		(at 139.7 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2614,7 +3989,7 @@
 		(fields_autoplaced yes)
 		(uuid "43c4712f-8582-4f13-8fa0-55dda4e89f07")
 		(property "Reference" "U2"
-			(at 137.16 38.1 0)
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +3997,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 137.16 40.64 0)
+			(at 139.7 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +4005,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD"
-			(at 138.176 59.69 90)
+			(at 140.716 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2639,7 +4014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 59.69 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +4023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 59.69 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,8 +4095,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 237.49 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c73184-c379-4caf-a456-4587250b8cec")
+		(property "Reference" "Q3"
+			(at 243.84 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 243.84 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 242.57 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 242.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88d8f358-c771-4139-9573-e8aefe0d419d")
+		)
+		(pin "3"
+			(uuid "416d3c13-dba5-4e16-98b8-bf686c7da653")
+		)
+		(pin "1"
+			(uuid "9a70ef74-91bc-4e54-9fd6-a14680034f9c")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Subsystem Extra Symbols:SPI_HEADER_WITH_RESET")
-		(at 214.63 31.75 180)
+		(at 41.91 19.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2730,7 +4181,7 @@
 		(fields_autoplaced yes)
 		(uuid "5949f23a-93a1-4841-885d-f20f496bd4df")
 		(property "Reference" "C1"
-			(at 219.71 31.75 0)
+			(at 46.99 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +4190,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 219.71 31.75 0)
+			(at 46.99 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main Extra Symbols:SPI_HEADER_RIBBON_CONNECTOR_V2"
-			(at 214.884 25.146 0)
+			(at 42.164 12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +4208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 31.75 0)
+			(at 46.99 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +4217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 31.75 0)
+			(at 46.99 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,16 +4272,16 @@
 	)
 	(symbol
 		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
-		(at 97.79 66.04 90)
+		(at 265.43 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9da3fa80-427a-4688-8f78-245bb0d55e7d")
-		(property "Reference" "R9"
-			(at 95.25 66.04 0)
+		(uuid "5ebda7fe-bb93-4e1e-86f3-c957819733e7")
+		(property "Reference" "R19"
+			(at 265.43 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,8 +4289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100 Ω"
-			(at 94.488 60.706 0)
+		(property "Value" "10k Ω"
+			(at 270.764 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +4299,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
-			(at 100.076 65.786 0)
+			(at 265.684 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +4308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.488 60.706 0)
+			(at 270.764 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +4317,369 @@
 			)
 		)
 		(property "Description" ""
-			(at 94.488 60.706 0)
+			(at 270.764 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "e8f6dc50-d456-4b01-81c0-2a74ed0ab692")
+		)
+		(pin "P$1"
+			(uuid "d7d3bb8c-716e-45f2-b8f4-f55579c42fe2")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 238.76 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60739861-7ee7-4cae-a7e6-21a35c2cfecc")
+		(property "Reference" "Q8"
+			(at 245.11 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 245.11 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 243.84 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f01cc650-1626-469c-946a-98ddd9b29104")
+		)
+		(pin "3"
+			(uuid "9026388c-367c-4e8d-af14-8c73dec442c3")
+		)
+		(pin "1"
+			(uuid "2a3a6a51-3d47-452c-a831-2fe7dc982fd6")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 231.14 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8613e3-f4eb-48dc-b127-478d882110fc")
+		(property "Reference" "R17"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 236.474 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 231.394 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.474 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.474 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "99d623be-e944-47bd-97f2-e7e44070cf4a")
+		)
+		(pin "P$1"
+			(uuid "2f4d0607-3ff9-4b44-aace-7a173fedc32e")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 170.18 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915570d0-ee4b-4c88-a350-008f5e1142d3")
+		(property "Reference" "Q6"
+			(at 176.53 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 176.53 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 175.26 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68adf180-8306-4107-801c-cdb62c566baf")
+		)
+		(pin "3"
+			(uuid "47d07546-47e7-4637-b20a-d4237c439483")
+		)
+		(pin "1"
+			(uuid "0a069253-aa35-4597-918f-7ba0de99aaaf")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 195.58 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92537e77-13b8-4ef2-9978-e39e1cd93c19")
+		(property "Reference" "R4"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 200.914 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 195.834 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.914 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.914 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "8a25e8dd-094f-4c62-8222-81831ff1240a")
+		)
+		(pin "P$1"
+			(uuid "b9e5fa12-a759-4513-afa2-a780ac8a9f92")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 100.33 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9da3fa80-427a-4688-8f78-245bb0d55e7d")
+		(property "Reference" "R9"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 97.028 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 102.616 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.028 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.028 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +4705,7 @@
 	(symbol
 		(lib_name "Small_Potentiometer_1")
 		(lib_id "Subsystem Main:Small_Potentiometer")
-		(at 100.33 55.88 270)
+		(at 102.87 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2901,7 +4714,7 @@
 		(fields_autoplaced yes)
 		(uuid "a670569b-c8fa-4202-848a-e6a559c5c142")
 		(property "Reference" "U3"
-			(at 102.87 55.2449 90)
+			(at 105.41 52.7049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +4723,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 102.87 57.15 90)
+			(at 105.41 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +4732,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:Small_Potentiometer"
-			(at 91.44 55.88 0)
+			(at 93.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 55.88 0)
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +4750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 55.88 0)
+			(at 102.87 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,16 +4778,16 @@
 	)
 	(symbol
 		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
-		(at 48.26 166.37 180)
+		(at 229.87 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b46b5cfd-a7bb-4e1a-b465-c9e1f2275c84")
-		(property "Reference" "R7"
-			(at 48.26 168.91 0)
+		(uuid "abdd0722-5374-4574-8bf3-045cb889d083")
+		(property "Reference" "R6"
+			(at 229.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,8 +4795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10 Ω"
-			(at 42.926 169.672 0)
+		(property "Value" "10k Ω"
+			(at 235.204 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +4805,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
-			(at 48.006 164.084 0)
+			(at 230.124 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +4814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.926 169.672 0)
+			(at 235.204 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +4823,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 42.926 169.672 0)
+			(at 235.204 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "1cc7dc9a-9fa0-4d81-806d-53779927d5c5")
+		)
+		(pin "P$1"
+			(uuid "07dab6fb-05ba-4514-88a3-7193a8562075")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 50.8 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46b5cfd-a7bb-4e1a-b465-c9e1f2275c84")
+		(property "Reference" "R7"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10 Ω"
+			(at 45.466 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 50.546 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.466 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.466 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,8 +4917,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 273.05 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be31372c-15ea-4043-8e40-8e054e7b7ae4")
+		(property "Reference" "Q9"
+			(at 279.4 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 279.4 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 278.13 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 278.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ff2a1df-c4e5-4dee-b34d-9c172b6ad915")
+		)
+		(pin "3"
+			(uuid "301b78dc-2b5b-441d-b1a8-6a80354b6684")
+		)
+		(pin "1"
+			(uuid "b56395c8-a856-42f0-9f32-417c3c1a1896")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
-		(at 50.8 128.27 0)
+		(at 162.56 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,7 +5003,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3a4be3-61b8-4ef1-88d3-0755eee52a2f")
 		(property "Reference" "R2"
-			(at 50.8 125.73 0)
+			(at 162.56 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +5012,7 @@
 			)
 		)
 		(property "Value" "10k Ω"
-			(at 56.134 124.968 0)
+			(at 167.894 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +5021,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
-			(at 51.054 130.556 0)
+			(at 162.814 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +5030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.134 124.968 0)
+			(at 167.894 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +5039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 56.134 124.968 0)
+			(at 167.894 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,16 +5064,16 @@
 	)
 	(symbol
 		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
-		(at 41.91 152.4 180)
+		(at 196.85 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd24c49d-a06f-45b5-b3c7-9df82bd9ac91")
-		(property "Reference" "R8"
-			(at 41.91 154.94 0)
+		(uuid "c106625f-3005-4615-99e3-58c8ff716d4f")
+		(property "Reference" "R15"
+			(at 196.85 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +5082,7 @@
 			)
 		)
 		(property "Value" "10k Ω"
-			(at 36.576 155.702 0)
+			(at 202.184 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +5091,7 @@
 			)
 		)
 		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
-			(at 41.656 150.114 0)
+			(at 197.104 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +5100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.576 155.702 0)
+			(at 202.184 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +5109,147 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.576 155.702 0)
+			(at 202.184 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "f7fc6455-cd90-466b-8739-3276ff54e5f9")
+		)
+		(pin "P$1"
+			(uuid "8d0993aa-c324-4409-b43d-93badbb0d338")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 265.43 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb2c9c47-a29d-47c8-8663-7dc6fc6243a9")
+		(property "Reference" "R10"
+			(at 265.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 270.764 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 265.684 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.764 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.764 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "712885af-6699-46f3-af00-59d457ac168c")
+		)
+		(pin "P$1"
+			(uuid "4f842c4c-5a7d-4c41-9bf1-6ed19f8cb6c0")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 44.45 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd24c49d-a06f-45b5-b3c7-9df82bd9ac91")
+		(property "Reference" "R8"
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 39.116 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 44.196 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.116 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.116 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,8 +5273,288 @@
 		)
 	)
 	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 196.85 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d76c46d4-3b1b-4d90-b016-ae5bd713d99f")
+		(property "Reference" "R14"
+			(at 196.85 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 202.184 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 197.104 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.184 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202.184 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "ecef01e3-3203-4b9f-b3f9-0a656ab83ad4")
+		)
+		(pin "P$1"
+			(uuid "c127fdd1-4d93-41e9-bf33-b0a0d1fd838c")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 231.14 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df53f173-a9e3-40f3-a787-8c7f013b63be")
+		(property "Reference" "R16"
+			(at 231.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 236.474 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 231.394 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.474 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.474 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "7d0eec26-5ae0-47fb-9e8f-e43086b43b58")
+		)
+		(pin "P$1"
+			(uuid "46336d01-9887-434e-9536-3bf609872bfa")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 162.56 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b26892-53a2-4f85-9450-2ba54cd52c00")
+		(property "Reference" "R13"
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 167.894 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 162.814 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.894 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.894 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "36a11acb-97b4-4360-bec0-73a0acf5d3a6")
+		)
+		(pin "P$1"
+			(uuid "a83b62a8-2cde-4144-ad33-f5b3977f6489")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main:THROUGH_HOLE_RESISTOR")
+		(at 229.87 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5cd435f-a383-40ba-8ab3-6bbdef771562")
+		(property "Reference" "R5"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k Ω"
+			(at 235.204 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main:THROUGH_HOLE_RESISTOR"
+			(at 230.124 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.204 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 235.204 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "b45a5a93-ff2d-4fd1-9974-b778db5b658a")
+		)
+		(pin "P$1"
+			(uuid "b631c446-7b17-4afb-b33f-b142e1ffc260")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BS170")
-		(at 58.42 111.76 0)
+		(at 170.18 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3184,7 +5563,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0be01ff-05ba-4a44-9eeb-abb5fd273cf4")
 		(property "Reference" "Q1"
-			(at 64.77 110.4899 0)
+			(at 176.53 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +5572,7 @@
 			)
 		)
 		(property "Value" "BS170"
-			(at 64.77 113.0299 0)
+			(at 176.53 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +5581,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 63.5 113.665 0)
+			(at 175.26 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +5592,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 63.5 115.57 0)
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +5602,7 @@
 			)
 		)
 		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 58.42 111.76 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,8 +5629,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BS170")
+		(at 273.05 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f165d703-4608-4117-a1dd-c7fe45225a67")
+		(property "Reference" "Q4"
+			(at 279.4 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BS170"
+			(at 279.4 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 278.13 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(at 273.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7173e0a-8dac-40f6-8475-d3e7cd915bc2")
+		)
+		(pin "3"
+			(uuid "a2265f97-bbb6-45d3-9192-b577c0d6cc75")
+		)
+		(pin "1"
+			(uuid "6b0fcbe4-fe3f-4e62-841b-6e47a78d1dbe")
+		)
+		(instances
+			(project "Subsystem SPI Breakout v3"
+				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 63.5 163.83 270)
+		(at 66.04 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3260,7 +5715,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6f2beb8-d09b-4734-8bec-e9bccefec4a8")
 		(property "Reference" "Q5"
-			(at 63.5 170.18 90)
+			(at 66.04 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +5723,7 @@
 			)
 		)
 		(property "Value" "NPN transistor"
-			(at 63.5 172.72 90)
+			(at 66.04 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 61.595 168.91 0)
+			(at 64.135 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +5742,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 63.5 163.83 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +5752,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 63.5 163.83 0)
+			(at 66.04 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
