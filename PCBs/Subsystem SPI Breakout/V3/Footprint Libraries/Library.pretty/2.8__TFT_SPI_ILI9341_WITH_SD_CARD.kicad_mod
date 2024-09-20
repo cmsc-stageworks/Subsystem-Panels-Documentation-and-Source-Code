@@ -1,4 +1,4 @@
-(footprint "2.8\"_TFT_SPI_ILI9341_WITH_SD_CARD"
+(footprint "2.8__TFT_SPI_ILI9341_WITH_SD_CARD"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -236,28 +236,28 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 7.62 -17.78)
+		(at 7.62 -24.13)
 		(size 2.794 2.794)
 		(drill 3.175)
 		(layers "*.Mask")
 		(uuid "794d7f02-e880-4f2f-ab06-b12e53bbc135")
 	)
 	(pad "" np_thru_hole circle
-		(at 7.62 17.78)
+		(at 7.62 24.13)
 		(size 2.794 2.794)
 		(drill 3.175)
 		(layers "*.Mask")
 		(uuid "d1ab1181-9015-427e-a30c-7c8a67fa5719")
 	)
 	(pad "" np_thru_hole circle
-		(at 90.17 -17.78)
+		(at 90.17 -24.13)
 		(size 2.794 2.794)
 		(drill 3.175)
 		(layers "*.Mask")
 		(uuid "ed6e355a-0aa6-4a17-9f88-47c876a30d27")
 	)
 	(pad "" np_thru_hole circle
-		(at 90.17 17.78)
+		(at 90.17 24.13)
 		(size 2.794 2.794)
 		(drill 3.175)
 		(layers "*.Mask")
