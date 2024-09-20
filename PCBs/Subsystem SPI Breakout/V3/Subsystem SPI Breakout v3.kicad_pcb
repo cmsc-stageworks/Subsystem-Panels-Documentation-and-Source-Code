@@ -456,9 +456,9 @@
 		(uuid "2105e205-b515-4cea-be2b-96be60fc7227")
 		(at 187.96 99.06)
 		(property "Reference" "Brightness Adjust1"
-			(at 0 -10.16 0)
+			(at 0 -5.08 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c4147ba8-f354-45fa-9f6c-5604618d5d54")
 			(effects
 				(font
