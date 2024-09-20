@@ -4955,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a670569b-c8fa-4202-848a-e6a559c5c142")
-		(property "Reference" "U3"
+		(property "Reference" "Brightness Adjust1"
 			(at 105.41 52.7049 90)
 			(effects
 				(font
@@ -5012,7 +5012,7 @@
 		(instances
 			(project ""
 				(path "/febd836d-dda2-47e2-b3cf-62a76efd61a3"
-					(reference "U3")
+					(reference "Brightness Adjust1")
 					(unit 1)
 				)
 			)

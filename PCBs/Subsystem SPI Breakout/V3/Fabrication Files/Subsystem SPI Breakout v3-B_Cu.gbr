@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
-%TF.CreationDate,2024-09-20T16:04:35-06:00*%
+%TF.CreationDate,2024-09-20T16:10:16-06:00*%
 %TF.ProjectId,Subsystem SPI Breakout v3,53756273-7973-4746-956d-205350492042,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4) date 2024-09-20 16:04:35*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2024-09-20 16:10:16*
 %MOMM*%
 %LPD*%
 G01*
@@ -60,18 +60,18 @@ X118110000Y-71120000D03*
 %TO.N,/3V3*%
 X172720000Y-99060000D03*
 %TO.P,R9,P$2,P$2*%
-%TO.N,Net-(R9-PadP$2)*%
+%TO.N,Net-(Brightness Adjust1-PadVin)*%
 X180340000Y-99060000D03*
 %TD*%
 D11*
-%TO.P,U3,Vin*%
-%TO.N,Net-(R9-PadP$2)*%
+%TO.P,Brightness Adjust1,Vin*%
+%TO.N,Net-(Brightness Adjust1-PadVin)*%
 X182880000Y-99060000D03*
-%TO.P,U3,Vout1*%
-%TO.N,Net-(U2-PadLED)*%
+%TO.P,Brightness Adjust1,Vout1*%
+%TO.N,Net-(Brightness Adjust1-PadVout1)*%
 X193040000Y-96520000D03*
-%TO.P,U3,Vout2*%
-%TO.N,unconnected-(U3-PadVout2)*%
+%TO.P,Brightness Adjust1,Vout2*%
+%TO.N,unconnected-(Brightness Adjust1-PadVout2)*%
 X193040000Y-101600000D03*
 %TD*%
 D10*
@@ -360,7 +360,7 @@ X196140000Y-88900000D03*
 %TO.N,/GND*%
 X196140000Y-81280000D03*
 %TO.P,U2,LED,LED*%
-%TO.N,Net-(U2-PadLED)*%
+%TO.N,Net-(Brightness Adjust1-PadVout1)*%
 X196140000Y-96520000D03*
 %TO.P,U2,RESET,RESET*%
 %TO.N,/RESET_3V3*%
