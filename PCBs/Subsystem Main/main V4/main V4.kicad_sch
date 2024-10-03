@@ -671,6 +671,403 @@
 				)
 			)
 		)
+		(symbol "Subsystem Main Extra Symbols:SPI_HEADER_WITH_RESET"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Subsystem Main Extra Symbols:SPI_HEADER_RIBBON_CONNECTOR_V2"
+				(at -0.254 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPI_HEADER_WITH_RESET_1_0"
+				(polyline
+					(pts
+						(xy -30.48 -5.08) (xy 27.94 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -30.48 5.08) (xy -30.48 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -30.48 5.08) (xy 27.94 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 5.08) (xy 27.94 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -27.94 10.16 270)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 10.16 270)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 10.16 270)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 10.16 270)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 10.16 270)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 10.16 270)
+					(length 5.08)
+					(name "Reset"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 270)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 10.16 270)
+					(length 5.08)
+					(name "SD_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SD_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 270)
+					(length 5.08)
+					(name "SPKR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SPKR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 10.16 270)
+					(length 5.08)
+					(name "TFT_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TFT_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 270)
+					(length 5.08)
+					(name "TFT_DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TFT_DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 10.16 270)
+					(length 5.08)
+					(name "Touch_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Subsystem Main Extra Symbols:T_irq"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Subsystem Main Extra Symbols:T_IRQ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "T_irq_0_1"
+				(rectangle
+					(start 0 1.27)
+					(end 6.35 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "T_irq_1_1"
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "T_IRQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "main-eagle-import:7_SEG_DISPLAY"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4103,294 +4500,6 @@
 				)
 			)
 		)
-		(symbol "main-eagle-import:SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "main:SPI_HEADER_RIBBON_CONNECTOR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR_1_0"
-				(polyline
-					(pts
-						(xy -25.4 -5.08) (xy 25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy 25.4 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 5.08) (xy 25.4 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -22.86 10.16 270)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 10.16 270)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 10.16 270)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 10.16 270)
-					(length 5.08)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 10.16 270)
-					(length 5.08)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 10.16 270)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 10.16 270)
-					(length 5.08)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 10.16 270)
-					(length 5.08)
-					(name "SPKR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SPKR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 270)
-					(length 5.08)
-					(name "TFT_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TFT_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 10.16 270)
-					(length 5.08)
-					(name "TFT_DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TFT_DC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "main-eagle-import:W237-102"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4775,6 +4884,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 200.66) (xy 350.52 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1ee4c3-dd14-4281-b225-6989ee3299c4")
+	)
+	(wire
+		(pts
 			(xy 144.78 63.5) (xy 128.27 63.5)
 		)
 		(stroke
@@ -4862,6 +4981,16 @@
 			(type default)
 		)
 		(uuid "3607f1a9-b6e4-4d45-9cec-82517e570672")
+	)
+	(wire
+		(pts
+			(xy 346.71 204.47) (xy 350.52 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376a1e16-8f75-4714-8dc8-644d0a0f0908")
 	)
 	(wire
 		(pts
@@ -5235,6 +5364,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 276.86) (xy 190.5 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acef135c-1e39-49e8-887a-e9958fc48806")
+	)
+	(wire
+		(pts
 			(xy 274.32 238.76) (xy 350.52 238.76)
 		)
 		(stroke
@@ -5365,6 +5504,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 276.86) (xy 195.58 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9624142-317b-42ca-b34b-ff47238b946f")
+	)
+	(wire
+		(pts
 			(xy 123.19 101.6) (xy 88.9 101.6)
 		)
 		(stroke
@@ -5485,6 +5634,17 @@
 		)
 		(uuid "0c622c86-1f2b-42df-8729-73b32d07c207")
 	)
+	(label "RESET"
+		(at 346.71 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e07f48f-e786-43f7-88ca-d4665793ae26")
+	)
 	(label "5V"
 		(at 139.7 238.76 0)
 		(fields_autoplaced yes)
@@ -5506,6 +5666,17 @@
 			(justify left bottom)
 		)
 		(uuid "1ad6a221-cc03-443b-9d28-db9554aa0594")
+	)
+	(label "Touch_CS"
+		(at 346.71 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b25a844-b508-4ce8-9e14-f81d0f1eb1c7")
 	)
 	(label "RAW_IN"
 		(at 200.66 48.26 0)
@@ -5583,6 +5754,17 @@
 			(justify left bottom)
 		)
 		(uuid "5a07dbb8-f26b-4a74-91db-e6109c72c368")
+	)
+	(label "Touch_CS"
+		(at 190.5 276.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65710876-3f6e-4827-b91b-2258ec0c47ef")
 	)
 	(label "RAW_IN"
 		(at 193.04 88.9 0)
@@ -6775,6 +6957,73 @@
 			(project ""
 				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
 					(reference "SECTION_1_BUTTON0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Subsystem Main Extra Symbols:T_irq")
+		(at 195.58 279.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45201f8d-3ebb-4ed8-85a5-43dfefc85810")
+		(property "Reference" "U2"
+			(at 198.12 281.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 283.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Subsystem Main Extra Symbols:T_IRQ"
+			(at 193.04 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dea38d7-085e-4597-abad-7f7106e3fe1b")
+		)
+		(instances
+			(project ""
+				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8051,6 +8300,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Subsystem Main Extra Symbols:SPI_HEADER_WITH_RESET")
+		(at 360.68 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d905ebf-46e9-4dc9-9b31-e9aeb5827fcf")
+		(property "Reference" "C1"
+			(at 360.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 360.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Subsystem Main Extra Symbols:SPI_HEADER_RIBBON_CONNECTOR_V2"
+			(at 367.284 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MOSI"
+			(uuid "0ab2b766-f303-46c1-9088-1de65caea7b5")
+		)
+		(pin "MISO"
+			(uuid "6cefd26d-1afe-415a-a131-5e0b47e80b61")
+		)
+		(pin "TFT_DC"
+			(uuid "2da8d080-f197-4b9b-8529-fa7819db53be")
+		)
+		(pin "5V"
+			(uuid "18c1d50c-e25c-4fa6-af18-2594dae0bee5")
+		)
+		(pin "SPKR"
+			(uuid "58c8a64a-07a4-4b50-80a6-324ed620fdd8")
+		)
+		(pin "SCK"
+			(uuid "ef31e305-5258-4681-8712-5f737cbe9dad")
+		)
+		(pin "SD_CS"
+			(uuid "b24d5f86-7e28-4c3d-bd47-bef3a0933bf7")
+		)
+		(pin "3V3"
+			(uuid "2629e9d2-7959-4521-adb9-0813dcf5143c")
+		)
+		(pin "RST"
+			(uuid "bc306c37-794c-428f-a482-a06094d2be00")
+		)
+		(pin "GND"
+			(uuid "08de1e28-bc95-4016-8ed8-b0430550932b")
+		)
+		(pin "TFT_CS"
+			(uuid "c9a2fba8-c01d-4b29-9abb-03bf1b5cbc31")
+		)
+		(pin "T_CS"
+			(uuid "8d2e70d6-27d5-4c10-97d9-bb732ca8ba06")
+		)
+		(instances
+			(project ""
+				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:L02P")
 		(at 279.4 182.88 180)
 		(unit 2)
@@ -8958,99 +9307,6 @@
 			(project ""
 				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
 					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "main-eagle-import:SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR")
-		(at 360.68 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b427ed18-71df-43ae-9703-a0ba8d607f44")
-		(property "Reference" "U$3"
-			(at 360.68 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SPI_HEADERSPI_HEADER_RIBBON_CONNECTOR"
-			(at 360.68 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "main:SPI_HEADER_RIBBON_CONNECTOR"
-			(at 360.68 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 360.68 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5V"
-			(uuid "b6a84082-bf14-4bee-b6f7-ae42ea7d2dcf")
-		)
-		(pin "3V3"
-			(uuid "46b4a880-c2a3-4e6b-af0b-db3a53616a3d")
-		)
-		(pin "SD_CS"
-			(uuid "4355c9af-c837-4623-8539-586aa54a4ca1")
-		)
-		(pin "TFT_CS"
-			(uuid "99417cf6-3d2a-4be8-85d0-0d05847a5b2c")
-		)
-		(pin "GND"
-			(uuid "4ab1a295-9e75-41bf-8001-0c7e67bfed29")
-		)
-		(pin "SPKR"
-			(uuid "9175eb08-d101-4488-a073-bb48bd8b074a")
-		)
-		(pin "MISO"
-			(uuid "a798af67-3c8e-4b5b-bfcb-88258ccff23c")
-		)
-		(pin "SCK"
-			(uuid "bee9349b-4400-4977-b531-e9d84d1b9c0e")
-		)
-		(pin "MOSI"
-			(uuid "6982fc5e-641e-4bb4-acbf-21fb54d99ae2")
-		)
-		(pin "TFT_DC"
-			(uuid "645cdf57-09e9-4be2-bffc-36d136306509")
-		)
-		(instances
-			(project ""
-				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
-					(reference "U$3")
 					(unit 1)
 				)
 			)
