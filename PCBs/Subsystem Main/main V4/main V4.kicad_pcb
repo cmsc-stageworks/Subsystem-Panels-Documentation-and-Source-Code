@@ -13232,6 +13232,19 @@
 		(layer "Edge.Cuts")
 		(uuid "db772d09-60ba-4aef-b666-2d62da9133f4")
 	)
+	(gr_text "Subsytem Main Board\nCMSC\nV4.0 10/2/24\nNathan Ford"
+		(at 69.342 100.076 -90)
+		(layer "F.SilkS")
+		(uuid "d380bf26-94a2-41a5-89c7-b5999fffae94")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(via
 		(at 123.19 63.5)
 		(size 1.27)
