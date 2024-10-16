@@ -5,6 +5,164 @@
 	(uuid "b46444b6-2d9e-49f7-aca9-c0067620254c")
 	(paper "User" 386.486 292.024)
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -4781,6 +4939,12 @@
 		(uuid "07479035-0c9b-4e25-98ef-45cb9039b725")
 	)
 	(junction
+		(at 109.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "709c1a47-cc52-4ff0-9515-727b9bed8759")
+	)
+	(junction
 		(at 281.94 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4791,6 +4955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "886d82c3-5cae-4828-be6c-6764f054f846")
+	)
+	(junction
+		(at 99.06 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa618dd0-b9fb-43a2-99bb-e354ad30f0d9")
 	)
 	(wire
 		(pts
@@ -4951,6 +5121,16 @@
 			(type default)
 		)
 		(uuid "2ea3b51e-5e50-4b4c-9acd-ca13af41ad75")
+	)
+	(wire
+		(pts
+			(xy 99.06 167.64) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b524f8-406a-4f35-a3b3-6d1fdad0e386")
 	)
 	(wire
 		(pts
@@ -5214,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 167.64) (xy 132.08 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754ab00e-5178-480c-97f1-394c0d89e082")
+	)
+	(wire
+		(pts
 			(xy 132.08 162.56) (xy 177.8 162.56)
 		)
 		(stroke
@@ -5231,6 +5421,16 @@
 			(type solid)
 		)
 		(uuid "76eeb0a6-40a2-4dc3-b18f-822c8ae160ff")
+	)
+	(wire
+		(pts
+			(xy 109.22 168.91) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1f585f-5958-4a0f-b253-600340dc28ba")
 	)
 	(wire
 		(pts
@@ -5281,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "8cf01637-1df8-42f5-9c17-b6a55207e39f")
+	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eaa46f4-331a-4776-b2dd-f816d2d764ed")
 	)
 	(wire
 		(pts
@@ -5421,16 +5631,6 @@
 			(type solid)
 		)
 		(uuid "bcf2d6f6-280a-4a21-afad-e068fcdb673f")
-	)
-	(wire
-		(pts
-			(xy 78.74 167.64) (xy 132.08 167.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bdce4520-8547-45c0-b842-21950f1a2242")
 	)
 	(wire
 		(pts
@@ -5908,6 +6108,17 @@
 			(justify left bottom)
 		)
 		(uuid "bd0cd4c5-4326-4805-9bb6-b52bb64ab56f")
+	)
+	(label "5V"
+		(at 52.07 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9831c6a-fdaf-426e-b6f6-cc5936341841")
 	)
 	(label "5V"
 		(at 116.84 129.54 0)
@@ -6818,6 +7029,76 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:FLIPFLOP-RES")
+		(at 104.14 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3387c400-e602-4be3-ba7b-e21a7da6534d")
+		(property "Reference" "Neopixel Resistor1"
+			(at 107.95 169.1386 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "350 ohm"
+			(at 107.95 164.338 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 104.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b81ded0c-2aef-4657-a7c3-000b1b3c1fed")
+		)
+		(pin "2"
+			(uuid "e74e07c0-9c26-420f-ae12-b17214bbaff4")
+		)
+		(instances
+			(project "main V4"
+				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
+					(reference "Neopixel Resistor1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:7_SEG_DISPLAY")
 		(at 99.06 149.86 270)
 		(unit 1)
@@ -7030,6 +7311,72 @@
 		)
 	)
 	(symbol
+		(lib_id "main-eagle-import:GND")
+		(at 52.07 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "495befc2-c3b2-4049-9ca1-8bd4898f5d1b")
+		(property "Reference" "#GND022"
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e321131-372e-44ac-a6da-3d4529532ef5")
+		)
+		(instances
+			(project "main V4"
+				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
+					(reference "#GND022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "main-eagle-import:L02P")
 		(at 259.08 81.28 0)
 		(unit 2)
@@ -7179,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caf4d5a-7bbf-4ae8-9782-d0e812d56bfa")
-		(property "Reference" "1"
+		(property "Reference" "11"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -7257,7 +7604,7 @@
 		(instances
 			(project ""
 				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
-					(reference "1")
+					(reference "11")
 					(unit 1)
 				)
 			)
@@ -8037,7 +8384,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "FLIPFLOP-RES"
+		(property "Value" "10k"
 			(at 122.682 156.21 0)
 			(effects
 				(font
@@ -8107,7 +8454,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "FLIPFLOP-RES"
+		(property "Value" "220 ohm"
 			(at 199.39 69.342 0)
 			(effects
 				(font
@@ -8465,6 +8812,76 @@
 				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
 					(reference "JACK_CON2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 52.07 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a41cfa-889a-4282-8e66-8be350d8813a")
+		(property "Reference" "C2"
+			(at 55.88 166.7509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 55.88 169.2909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm"
+			(at 53.0352 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 52.07 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1363f547-4491-4037-bd7c-c49c41728e08")
+		)
+		(pin "1"
+			(uuid "bc6ee670-5909-4801-9a08-2940927ac575")
+		)
+		(instances
+			(project ""
+				(path "/b46444b6-2d9e-49f7-aca9-c0067620254c"
+					(reference "C2")
+					(unit 1)
 				)
 			)
 		)
@@ -10087,7 +10504,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "FLIPFLOP-RES"
+		(property "Value" "10K"
 			(at 120.142 140.97 0)
 			(effects
 				(font
