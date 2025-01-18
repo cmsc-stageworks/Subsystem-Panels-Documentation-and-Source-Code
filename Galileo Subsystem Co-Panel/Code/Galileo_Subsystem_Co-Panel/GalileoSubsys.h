@@ -1,7 +1,7 @@
 /*
   CMSC Galileo Subsytem Co-Panel
-  Design by Mr. Porter
-  Written and Wired by Nathan Ford
+  Panel Layout Designed by Mr. Porter
+  Panel Code Written and Wired by Nathan Ford
   JUN 2021
 */
 #include "Arduino.h"

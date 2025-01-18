@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Subsystem-rescue)(type Legacy)(uri ${KIPRJMOD}/Subsystem-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Subsystem-rescue")(type "KiCad")(uri "${KIPRJMOD}/Subsystem-rescue.kicad_sym")(options "")(descr ""))
 )
