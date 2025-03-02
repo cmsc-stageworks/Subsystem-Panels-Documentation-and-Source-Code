@@ -29,7 +29,9 @@ public:
         EthernetClient client = webServer.available();
         delayMicroseconds(750); // give them a little time to connect fully
         if (client) {
+            #if DEBUG
             Serial.println("Satisfying Client");
+            #endif
             // an http request ends with a blank line
             boolean currentLineIsBlank = true;
             while (client.connected()) {
@@ -125,7 +127,7 @@ public:
                     #if !MAKE_PARSE_FRIENDLY
                     client.print("</div>");
                     #endif
-                    client.println("<br><br>This is the wanted button status: ");
+                    client.println("<br><br>This is the button solution: ");
                     #if !MAKE_PARSE_FRIENDLY
                     client.print("<div class=\"holder\">");
                     #endif

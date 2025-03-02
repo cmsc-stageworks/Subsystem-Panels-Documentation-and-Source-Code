@@ -23,13 +23,26 @@ void setup() {
   Serial.println("Initialize");
   while(!Serial.available());
   String panelResponse = Serial.readStringUntil('\n');
+  panelResponse.replace("\r","");
   if(!panelResponse.equals("OK")){
+    Serial.print("Unidentified Command: ");
+    Serial.println(panelResponse);
+    for(byte i = 0; i < panelResponse.length(); i++){
+      Serial.print(panelResponse[i], HEX);
+      Serial.print(' ');
+    }
+    Serial.println();
     errorCode(INVALID_PANEL);
   }
 
   Serial.println("Identify");
   while(!Serial.available());
   String panelName = Serial.readStringUntil('\n');
+
+  #if DEBUG
+  Serial.print("Panel Name: ");
+  Serial.println(panelName);
+  #endif
   
 
   byte mac[6] = {
@@ -40,9 +53,22 @@ void setup() {
     mac[i] = panelName[i];
   }
 
+  #if DEBUG
+  Serial.print("Created Mac Address: ");
+  for(int i = 0; i < 6; i++){
+    Serial.print(mac[i], HEX);
+    Serial.print(' ');
+  }
+  Serial.println();
+  #endif
+
+  Ethernet.setHostname(panelName.c_str());
   Ethernet.setCsPin(ETHERNET_CS); 
 
+  Serial.println("Starting Ethernet");
+
   while(!Ethernet.begin(mac)){
+    Serial.println("Failed to initialize Ethernet!");
     errorCode(NO_ETHERNET, false);
   }
 
@@ -61,7 +87,7 @@ void setup() {
 }
 
 void loop() {
-  panelCommunicator.updateFromSerial();
+  panelCommunicator.tick();
   webServer.updateClients();
 }
 

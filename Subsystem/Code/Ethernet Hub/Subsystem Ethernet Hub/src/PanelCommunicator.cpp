@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#define UPDATE_PANEL_INFO_PERIOD 100
 
 class PanelCommunicator{
 private:
@@ -15,7 +16,16 @@ private:
     byte buttonSolution[16];
     byte colorPalate;
 
-public:
+    unsigned long lastUpdateRequest;
+
+    bool recievedLastUpdateRequest = true;
+
+    bool shouldAskAgain(){
+        bool routineCheckup = recievedLastUpdateRequest && (millis()-lastUpdateRequest) > UPDATE_PANEL_INFO_PERIOD;
+        bool retryCooldownEllapsed = (millis()-lastUpdateRequest) > (UPDATE_PANEL_INFO_PERIOD * 10);
+        return routineCheckup || retryCooldownEllapsed;
+    }
+
     void updateFromSerial(){
         byte i;
 
@@ -42,6 +52,18 @@ public:
             buttonSolution[i] = Serial.parseInt();
         }
         colorPalate = Serial.parseInt();
+    }
+public:
+    void tick(){
+        if(shouldAskAgain()){
+            lastUpdateRequest = millis();
+            Serial.println("Update");
+            recievedLastUpdateRequest = false;
+        }
+        if(Serial.available()){ // if we have a message waiting
+            updateFromSerial();
+            recievedLastUpdateRequest = true;
+        }
     }
     byte getSection(){
         return sectionNumber;
