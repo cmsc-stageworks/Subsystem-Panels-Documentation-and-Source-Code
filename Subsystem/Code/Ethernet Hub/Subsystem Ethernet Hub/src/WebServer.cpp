@@ -6,6 +6,8 @@ class WebServer {
 private:
     EthernetServer webServer = EthernetServer(WEB_INTERFACE_PORT);
     PanelCommunicator* panelCommunicator;
+    char* panelName;
+    
     const byte ProfileConversion[12][7] = {
         {0,1,2,3,4,5,6},
         {0,1,4,0,0,0,0},
@@ -20,8 +22,9 @@ private:
         {0,1,2,0,0,0,0},
         {4,6,0,0,0,0,0}};
 public:
-    void init(PanelCommunicator* desiredCommunicator){
+    void init(PanelCommunicator* desiredCommunicator, char* panelName){
         panelCommunicator = desiredCommunicator;
+        this->panelName = panelName;
         webServer.begin();
     }
 
@@ -55,7 +58,7 @@ public:
                 #endif
                 client.print("<!DOCTYPE HTML>");
                 client.print("<html>");
-                //client.print(VersionNumber);
+                client.print(panelName);
                 client.print("<br>Subsystem: ");
                 client.println(panelCommunicator->getSection());
                 client.print("<br>Current Section:");
@@ -111,18 +114,18 @@ public:
                     client.print("<div class=\"holder\">");
                     #endif
                     for(int x = 3; x >= 0; x--){
-                    if(x != 3){
-                        client.print("<br>");
-                    }
-                    for(int y = 0; y < 4; y++){
-                        #if MAKE_PARSE_FRIENDLY
-                        client.print(ProfileConversion[colorProfile][buttonValues[y][x]]);
-                        #else
-                        client.print("<div class=\"bx c");
-                        client.print(ProfileConversion[panelCommunicator->getColorPalate()][panelCommunicator->getButtonStatus()[y*4+x]]);
-                        client.print("\"></div>");
-                        #endif
-                    }
+                        if(x != 3){
+                            client.print("<br>");
+                        }
+                        for(int y = 0; y < 4; y++){
+                            #if MAKE_PARSE_FRIENDLY
+                            client.print(ProfileConversion[colorProfile][buttonValues[y][x]]);
+                            #else
+                            client.print("<div class=\"bx c");
+                            client.print(panelCommunicator->getButtonStatus()[y*4+x]);
+                            client.print("\"></div>");
+                            #endif
+                        }
                     }
                     #if !MAKE_PARSE_FRIENDLY
                     client.print("</div>");

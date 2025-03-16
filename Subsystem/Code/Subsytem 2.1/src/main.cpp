@@ -7,7 +7,7 @@ DESIGNED AND PROGRAMMED BY NATHAN FORD 2020 - UPDATED 2021
 const String PanelName("PanelTest");
 //--------------------------------------------------------------
 
-#define DEBUGPRINTS true  //If system should send Debug Reports
+#define DEBUGPRINTS false  //If system should send Debug Reports
 #define MAKEPARSEFRIENDLY false //for the web page, should it look nice, or make it easy for thorium to use
 #include "SevenSegmentTM1637.h"
 #include <Encoder.h>
@@ -153,6 +153,7 @@ void sendData();
 void reset();
 byte findIndex(const byte list[], byte valueWanted);
 void checkForLastUpateRestart();
+void communicateWithEthernetController();
 
 void setPinModes(){
   pinMode(speakerPin, OUTPUT);
@@ -196,7 +197,6 @@ void setup(void) {
     for(;;);
   }
   stat = reader.drawBMP("/Pictures/logo.bmp", tft, 0, 0); //draws ship logo stored on the sd card
-  Serial.println("attempting etherent connection");
   display.clear(); //display and tft can be easily mixed up, display is the 7 segment display and tft is the screen
   oldPos = myEnc.read();
   result = Space + Space + Space + newPos; //formats the number nice
@@ -204,6 +204,7 @@ void setup(void) {
   
 }
 void loop() {
+  communicateWithEthernetController();
   if(!debugMode){
     if(section == 0){ //section selection
       section1();
@@ -211,7 +212,6 @@ void loop() {
     else if(section == 1){
       if(millis() - lastJackCheck > 4900){
         lastJackCheck = millis();
-        checkJackStatus();
       }
       section2();
     }
@@ -257,6 +257,19 @@ void incorrect(byte section) { //this is the beeping and red light you get when 
     delay(750);
   }
 }
+
+void readSwitches(){
+  for(i = 0; i < 8; i++){
+    switches[i] = digitalRead(BinaryPins[i]); //check rocker status and store in memory
+  }
+  count = 0;
+  for(i = 0; i < 8; i++){
+    if(switches[i] == 0){
+      count += round(pow(2,i)); // change the binary sequence into an actual number
+    }
+  }
+}
+
 void section1() {
   //check to debug mode (section 2 and 3 buttons pressed at the same time)
   if(!digitalRead(Section2Button) && !digitalRead(Section3Button)){
@@ -275,15 +288,7 @@ void section1() {
     lastActivity = millis();
     pixels.setPixelColor(SectionLights[0], pixels.Color(255, 255, 255)); //set to white because it takes a second to read from sd, and it tells the user the panel is doing something
     pixels.show();
-    for(i = 0; i < 8; i++){
-      switches[i] = digitalRead(BinaryPins[i]); //check rocker status and store in memory
-    }
-    count = 0;
-    for(i = 0; i < 8; i++){
-      if(switches[i] == 0){
-        count += round(pow(2,i)); // change the binary sequence into an actual number
-      }
-    }
+    readSwitches();
     readFile(); // read sd card file named after the number that the switches equal
     if(opened){ // if file exists
       if(rotary == newPos){ // if rotary number matches solution
@@ -575,5 +580,74 @@ void checkForLastUpateRestart(){
     lastActivity = millis();
     incorrect(section+1);
     reset();
+  }
+}
+
+void communicateWithEthernetController(){
+  if(Serial.available() >= 6){ //if we have a complete (or almost complete) message waiting
+    String request = Serial.readStringUntil('\n');
+    request.replace("\r", "");
+    if(request.equals("Initialize")){
+      Serial.println("OK");
+    }
+    else if(request.equals("Identify")){
+      Serial.println(PanelName + " " + VersionNumber);
+    }
+    else if(request.equals("Update")){
+      if(section == 0){
+        readSwitches();
+      }
+      else if(section == 1){
+        checkJackStatus();
+      }
+
+      Serial.print("$u "); //the command denoting that this is an update
+
+      Serial.print(section);
+      Serial.print(' ');
+      Serial.print(oldnewPos);
+      Serial.print(' ');
+      Serial.print(count);
+      Serial.print(' ');
+      Serial.print(lastSubmitCorrectOrIncorrect);
+      Serial.print(' ');
+      Serial.print(lastCompletedSubsystem);
+      Serial.print(' ');
+
+      Serial.flush();
+
+      for(x = 0; x < 5; x++){
+        for(y = 0; y < 2; y++){
+          Serial.print(jackConnections[x][y]);
+          Serial.print(' ');
+        }
+      }
+      for(x = 0; x < 5; x++){
+        for(y = 0; y < 2; y++){
+          Serial.print(connections[x][y]);
+          Serial.print(' ');
+        }
+      }
+
+      Serial.flush();
+
+
+      for(int x = 3; x >= 0; x--){
+        for(int y = 0; y < 4; y++){
+          Serial.print(ProfileConversion[colorProfile][buttonValues[y][x]]);
+          Serial.print(' ');
+        }
+      }
+      Serial.flush();
+      for(i = 0; i < 16; i++){
+        Serial.print(endColors[i]);
+        if(i != 15){
+          Serial.print(' ');
+        }
+        else{
+          Serial.println();
+        }
+      }
+    }
   }
 }

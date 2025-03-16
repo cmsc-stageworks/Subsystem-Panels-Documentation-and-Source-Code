@@ -5,16 +5,30 @@
 #include "WebServer.h"
 #include "PanelCommunicator.h"
 
+
+#if USE_MQTT
+#include <MQTT.h>
+#include "MQTTCommunicator.h"
+
+MQTTCommunicator mqttCom;
+#endif
+
+
 #define DEBUG true
 
+#if !USE_MQTT
 WebServer webServer;
+#endif
 
 PanelCommunicator panelCommunicator;
+
+char* panelName;
 
 void errorCode(int numFlashes, bool repeatForever = true);
 
 void setup() {
   Serial.begin(9600);
+  Serial.println(Serial.availableForWrite());
   delay(250);
   while(Serial.available()){
     Serial.read();
@@ -37,7 +51,9 @@ void setup() {
 
   Serial.println("Identify");
   while(!Serial.available());
-  String panelName = Serial.readStringUntil('\n');
+  String panelNameStr = Serial.readStringUntil('\n');
+  panelName = new char[panelNameStr.length()+1];
+  strcpy(panelName, panelNameStr.c_str());
 
   #if DEBUG
   Serial.print("Panel Name: ");
@@ -49,8 +65,8 @@ void setup() {
     0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED //default address, overwriten with panel name
   };
 
-  for(byte i = 0; i < panelName.length() && i < 6; i++){
-    mac[i] = panelName[i];
+  for(byte i = 0; i < panelNameStr.length() && i < 6; i++){
+    mac[i] = panelNameStr[i];
   }
 
   #if DEBUG
@@ -62,8 +78,8 @@ void setup() {
   Serial.println();
   #endif
 
-  Ethernet.setHostname(panelName.c_str());
-  Ethernet.setCsPin(ETHERNET_CS); 
+  Ethernet.setHostname(panelName);
+  Ethernet.setCsPin(ETHERNET_CS);
 
   Serial.println("Starting Ethernet");
 
@@ -75,8 +91,10 @@ void setup() {
   #if DEBUG
     Serial.println("connection established, starting server:");
   #endif
-
-  webServer.init(&panelCommunicator);
+  
+  #if !USE_MQTT
+  webServer.init(&panelCommunicator, panelName);
+  #endif
 
   #if DEBUG
     Serial.print("server is at ");
@@ -84,11 +102,19 @@ void setup() {
     Serial.print(':');
     Serial.println(WEB_INTERFACE_PORT);
   #endif
+
+  #if USE_MQTT
+    mqttCom.init(&panelCommunicator, panelName);
+  #endif
 }
 
 void loop() {
   panelCommunicator.tick();
-  webServer.updateClients();
+  #if USE_MQTT
+    mqttCom.tick();
+  #else
+    webServer.updateClients();
+  #endif
 }
 
 
