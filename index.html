@@ -1,0 +1,36 @@
+<title id="tittle"></title>
+<link rel="icon" href="">
+<script>
+    function getTime(){
+        var time = new Date();
+        var m = time.getMinutes();
+        var h = time.getHours();
+        var s = time.getSeconds();
+        //var AmPm = AM;
+        if(h > 12){
+            h = h-12;
+            //AmPm = PM;
+        }
+        if(m < 10){
+            m = 0+""+m
+        }
+        if(s < 10){
+            s = 0+""+s
+        }
+        document.getElementById("tittle").text ="Time: " + h + ":" + m + ":" + s;// + " " + AmPm;
+        document.getElementById("time").text = h + ":" + m + ":" + s;// + " " + AmPm;
+    }
+    setInterval(getTime, 500)
+</script>
+<style>
+    a#time {
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+}
+    div {
+    text-align: center;
+}
+</style>
+<div>
+    <a id="time"></a>
+</div>

@@ -2,9 +2,10 @@
 #include <Ethernet3.h>
 #include "ErrorCodes.h"
 #include "EthernetLiterals.h"
-#include "WebServer.h"
 #include "PanelCommunicator.h"
 
+
+#define DEBUG false
 
 #if USE_MQTT
 #include <MQTT.h>
@@ -13,10 +14,8 @@
 MQTTCommunicator mqttCom;
 #endif
 
-
-#define DEBUG true
-
 #if !USE_MQTT
+#include "WebServer.h"
 WebServer webServer;
 #endif
 
@@ -52,6 +51,8 @@ void setup() {
   Serial.println("Identify");
   while(!Serial.available());
   String panelNameStr = Serial.readStringUntil('\n');
+  panelNameStr.replace("\r", "");
+  panelNameStr.toLowerCase();
   panelName = new char[panelNameStr.length()+1];
   strcpy(panelName, panelNameStr.c_str());
 
@@ -65,8 +66,8 @@ void setup() {
     0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED //default address, overwriten with panel name
   };
 
-  for(byte i = 0; i < panelNameStr.length() && i < 6; i++){
-    mac[i] = panelNameStr[i];
+  for(byte i = 0; i < panelNameStr.length() && i < 5; i++){
+    mac[i+1] = panelNameStr[i];
   }
 
   #if DEBUG
@@ -80,8 +81,6 @@ void setup() {
 
   Ethernet.setHostname(panelName);
   Ethernet.setCsPin(ETHERNET_CS);
-
-  Serial.println("Starting Ethernet");
 
   while(!Ethernet.begin(mac)){
     Serial.println("Failed to initialize Ethernet!");

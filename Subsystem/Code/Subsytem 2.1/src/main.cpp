@@ -3,9 +3,7 @@
 CMSC SUBSYSTEM REPAIR PANEL
 DESIGNED AND PROGRAMMED BY NATHAN FORD 2020 - UPDATED 2021
 */
-// -- set this unique for each panel, or bad vodoo happens --
-const String PanelName("PanelTest");
-//--------------------------------------------------------------
+
 
 #define DEBUGPRINTS false  //If system should send Debug Reports
 #define MAKEPARSEFRIENDLY false //for the web page, should it look nice, or make it easy for thorium to use
@@ -25,6 +23,7 @@ Encoder myEnc(20, 21);
 #define speakerPin 2
 #define incorrectBuzzFreq 100
 #define VersionNumber "Subsystem Version 2.0 (Alpha) (Prototype)" //ETHERNET SERVER WOOT WOOT
+String PanelName;
 byte mac[6] = {
     0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
   };
@@ -154,6 +153,7 @@ void reset();
 byte findIndex(const byte list[], byte valueWanted);
 void checkForLastUpateRestart();
 void communicateWithEthernetController();
+void updatePanelName();
 
 void setPinModes(){
   pinMode(speakerPin, OUTPUT);
@@ -196,6 +196,7 @@ void setup(void) {
     display.print("NOSD");
     for(;;);
   }
+  updatePanelName();
   stat = reader.drawBMP("/Pictures/logo.bmp", tft, 0, 0); //draws ship logo stored on the sd card
   display.clear(); //display and tft can be easily mixed up, display is the 7 segment display and tft is the screen
   oldPos = myEnc.read();
@@ -591,7 +592,7 @@ void communicateWithEthernetController(){
       Serial.println("OK");
     }
     else if(request.equals("Identify")){
-      Serial.println(PanelName + " " + VersionNumber);
+      Serial.println(PanelName);
     }
     else if(request.equals("Update")){
       if(section == 0){
@@ -649,5 +650,29 @@ void communicateWithEthernetController(){
         }
       }
     }
+  }
+}
+
+
+void updatePanelName(){
+  PanelName.reserve(31);
+  if(SD.exists("name.txt")){
+    File nameFile = SD.open("name.txt");
+    nameFile.seek(0);
+    byte stringPos = 0;
+    char readChar = nameFile.read();
+    while(stringPos < 30 && readChar != '\n' && readChar != '\r'){
+      if(readChar > 0x20){
+        PanelName[stringPos] = readChar;
+      }
+      else{
+        PanelName[stringPos] = '_';
+      }
+      stringPos++;
+      readChar = nameFile.read();
+    }
+  }
+  else{
+    PanelName = String("PanelTest") + VersionNumber;
   }
 }

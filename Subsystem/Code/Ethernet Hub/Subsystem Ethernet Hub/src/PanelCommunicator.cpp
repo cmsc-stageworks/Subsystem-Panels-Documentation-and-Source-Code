@@ -87,13 +87,13 @@ private:
         }
 
         //buttons
-        for(i = 0; i < 10; i++){
+        for(i = 0; i < 16; i++){
             #if USE_MQTT
             oldButtonStatus[i] = buttonStatus[i];
             #endif
             buttonStatus[i] = Serial.parseInt();
         }
-        for(i = 0; i < 10; i++){
+        for(i = 0; i < 16; i++){
             #if USE_MQTT
             oldButtonSolution[i] = buttonSolution[i];
             #endif
@@ -107,58 +107,76 @@ public:
             Serial.println("Update");
             recievedLastUpdateRequest = false;
         }
-        if(Serial.available()){ // if we have a message waiting
+        if(Serial.available() > 50){ // if we have a message waiting
             updateFromSerial();
             recievedLastUpdateRequest = true;
         }
     }
     #if USE_MQTT
         bool sectionChanged(){
-            return sectionNumber != oldSectionNumber;
+            bool hasChanged = sectionNumber != oldSectionNumber;
+            oldSectionNumber = sectionNumber;
+            return hasChanged;
         }
         bool systemChanged(){
-            return system != oldSystem;
+            bool hasChanged = system != oldSystem;
+            oldSystem = system;
+            return hasChanged;
         }
         bool subsystemChanged(){
-            return subsystem != oldSubsystem;
+            bool hasChanged = subsystem != oldSubsystem;
+            oldSubsystem = subsystem;
+            return hasChanged;
         }
         bool jackChanged(){
+            bool hasChanged = false;
             for(byte i = 0; i < 10; i++){
                 if(jackStatus[i] != oldJackStatus[i]){
-                    return true;
+                    hasChanged = true;
+                    oldJackStatus[i] = jackStatus[i];
                 }
             }
-            return false;
+            return hasChanged;
         }
         bool jackSolutionChanged(){
+            bool hasChanged = false;
             for(byte i = 0; i < 10; i++){
                 if(jackSolution[i] != oldJackSolution[i]){
-                    return true;
+                    hasChanged = true;
+                    oldJackSolution[i] = jackSolution[i];
                 }
             }
-            return false;
+            return hasChanged;
         }
         bool buttonStatusChanged(){
+            bool hasChanged = false;
             for(byte i = 0; i < 16; i++){
                 if(buttonStatus[i] != oldButtonStatus[i]){
-                    return true;
+                    hasChanged = true;
+                    oldButtonStatus[i] = buttonStatus[i];
                 }
             }
-            return false;
+            return hasChanged;
         }
         bool buttonSolutionChanged(){
+            bool hasChanged = false;
             for(byte i = 0; i < 16; i++){
                 if(buttonSolution[i] != oldButtonSolution[i]){
-                    return true;
+                    hasChanged = true;
+                    oldButtonSolution[i] = buttonSolution[i];
                 }
             }
-            return false;
+            return hasChanged;
         }
         bool lastSubmissionResultChanged(){
-            return lastSubmissionResult != oldLastSubmissionResult;
+            bool hasChanged = lastSubmissionResult != oldLastSubmissionResult;
+            oldLastSubmissionResult = lastSubmissionResult;
+            return hasChanged;
         }
         bool lastCompletedSubsystemChanged(){
-            return lastCompletedSubsystem != oldLastCompletedSubsystem;
+            bool hasChanged = lastCompletedSubsystem != oldLastCompletedSubsystem;
+            oldLastCompletedSubsystem = lastCompletedSubsystem;
+            return hasChanged;
         }
     #endif
     byte getSection(){
