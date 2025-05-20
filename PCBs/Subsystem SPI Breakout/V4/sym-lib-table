@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Subsystem Extra Symbols")(type "KiCad")(uri "C:/Users/swimn/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/PCBs/Subsystem Main/V3b/Subsystem Main Extra Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Subsystem Main")(type "KiCad")(uri "${KIPRJMOD}/Footprint Libraries/Subsystem Main.kicad_sym")(options "")(descr ""))
+)

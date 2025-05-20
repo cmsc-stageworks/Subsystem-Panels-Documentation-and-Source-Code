@@ -653,26 +653,38 @@ void communicateWithEthernetController(){
   }
 }
 
-
+#define MAX_NAME_LEN 31
 void updatePanelName(){
-  PanelName.reserve(31);
+  PanelName.reserve(MAX_NAME_LEN);
   if(SD.exists("name.txt")){
+    char tempName[MAX_NAME_LEN];
     File nameFile = SD.open("name.txt");
     nameFile.seek(0);
     byte stringPos = 0;
     char readChar = nameFile.read();
     while(stringPos < 30 && readChar != '\n' && readChar != '\r'){
       if(readChar > 0x20){
-        PanelName[stringPos] = readChar;
+        tempName[stringPos] = readChar;
       }
       else{
-        PanelName[stringPos] = '_';
+        tempName[stringPos] = '_';
       }
       stringPos++;
-      readChar = nameFile.read();
+      if(nameFile.available()){
+        readChar = nameFile.read();
+      }
+      else{
+        break;
+      }
     }
+    tempName[stringPos] = '\0';
+    PanelName = String(tempName);
   }
   else{
     PanelName = String("PanelTest") + VersionNumber;
   }
+  #if DEBUGPRINTS
+  Serial.print("Panel Name: ");
+  Serial.println(PanelName);
+  #endif
 }

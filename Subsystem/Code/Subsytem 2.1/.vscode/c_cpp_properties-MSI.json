@@ -1,0 +1,71 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/include",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/src",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Encoder-master",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Encoder-master/utility",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_NeoPixel",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_ImageReader_Library",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_EPD/src",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_SPIFlash/src",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/SdFat_-_Adafruit_Fork/src",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_ILI9341",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_GFX_Library",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_BusIO",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/arduino-tm1637-master/src",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/variants/mega",
+                "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/encoder-arduino",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/include",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/src",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Encoder-master",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Encoder-master/utility",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_NeoPixel",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_ImageReader_Library",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_EPD/src",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_SPIFlash/src",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/SdFat_-_Adafruit_Fork/src",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_ILI9341",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_GFX_Library",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/Adafruit_BusIO",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/arduino-tm1637-master/src",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "C:/Users/Nathan Ford/OneDrive/Documents/Space center/SubsystemPanelsDocumentationAndSourceCode/Subsystem/Code/Subsytem 2.1/lib/encoder-arduino",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/Nathan Ford/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandar

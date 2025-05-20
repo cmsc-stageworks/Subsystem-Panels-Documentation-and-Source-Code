@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
+%TF.CreationDate,2025-05-19T18:36:41-06:00*%
+%TF.ProjectId,Subsystem SPI Breakout v4,53756273-7973-4746-956d-205350492042,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2025-05-19 18:36:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X112280000Y-68580000D02*
+X198120000Y-68580000D01*
+X198120000Y-121920000D01*
+X112280000Y-121920000D01*
+X112280000Y-68580000D01*
+M02*
