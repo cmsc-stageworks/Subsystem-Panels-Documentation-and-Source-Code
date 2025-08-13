@@ -1,4 +1,4 @@
-26443778043556523
+26449043184158043
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73142,6 +73142,27 @@ CD4067BPWR
 0
 24
 24
+New Panel Parts
+CONV_R-78K3.3-2.0
+
+
+0
+3
+3
+New Panel Parts
+CONV_R-78K5.0-2.0
+
+
+0
+3
+3
+New Panel Parts
+FUSE_3568
+
+
+0
+4
+4
 New Panel Parts
 MicroSD Holder
 
