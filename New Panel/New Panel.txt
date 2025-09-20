@@ -1,0 +1,1 @@
+This WIP panel (now renamed Logic Re-Initialization Panel) has been moved to its own repository on GitHub.
